@@ -1,0 +1,2 @@
+@E: CG562 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/soc_interconnect.sv":123:87:123:87|Unresolved reference to 'r_valid'
+

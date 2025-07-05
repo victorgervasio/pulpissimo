@@ -1,0 +1,8 @@
+/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/bin/syn_nfilter  -link  -top  xilinx_pulpissimo  -multisrs  /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work/synwork/xilinx_pulpissimo_comp.srs  -osyn  /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work/synwork/xilinx_pulpissimo_mult.srs  -log  /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work/synlog/xilinx_pulpissimo_multi_srs_gen.srr 
+relcom:../../../../../../simplify-5.9/install/fpga/T-2022.09-SP2/bin/syn_nfilter -link -top xilinx_pulpissimo -multisrs ../synwork/xilinx_pulpissimo_comp.srs -osyn ../synwork/xilinx_pulpissimo_mult.srs -log ../synlog/xilinx_pulpissimo_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/xilinx_pulpissimo_comp.srs|io:i|time:1751390603|size:3094064|exec:0|csum:A1E5E4EE6256548393CBBAA0E855B08C
+file:../synwork/xilinx_pulpissimo_mult.srs|io:o|time:1751390608|size:14525|exec:0|csum:
+file:../synlog/xilinx_pulpissimo_multi_srs_gen.srr|io:o|time:1751390608|size:1325|exec:0|csum:
+file:../../../../../../simplify-5.9/install/fpga/T-2022.09-SP2/linux_a_64/syn_nfilter|io:i|time:1669373077|size:14188272|exec:1|csum:BBB0AE9D94DA2C1742D346188400FA70
+file:../../../../../../simplify-5.9/install/fpga/T-2022.09-SP2/bin/syn_nfilter|io:i|time:1669372654|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

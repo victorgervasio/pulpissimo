@@ -1,0 +1,28 @@
+# Run with quartus_sh -t <x_cons.tcl>
+
+# Global assignments 
+set_global_assignment -name TOP_LEVEL_ENTITY "|xilinx_pulpissimo"
+set_global_assignment -name ROUTING_BACK_ANNOTATION_MODE NORMAL
+set_global_assignment -name FAMILY "CYCLONE V"
+set_global_assignment -name DEVICE "5CSXFC6D6F31C6"
+set_global_assignment -section_id xilinx_pulpissimo -name EDA_DESIGN_ENTRY_SYNTHESIS_TOOL "SYNPLIFY"
+set_global_assignment -section_id eda_design_synthesis -name EDA_USE_LMF synplcty.lmf
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
+set_global_assignment -name REMOVE_DUPLICATE_LOGIC "OFF"
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|safe_domain_i|pad_control_i|i2s_slave_sck_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|safe_domain_i|pad_control_i|cam_pclk_o_0_a2
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|i_clk_gate_sys_udma|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_0__i_clk_gate_per|i_clk_gate|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_2__i_clk_gate_per|i_clk_gate|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_1__i_clk_gate_per|i_clk_gate|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_3__i_clk_gate_per|i_clk_gate|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_5__i_clk_gate_per|i_clk_gate|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_2__i_clk_gate_sys|clk_o_inferred_clock_RNO
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_3__i_clk_gate_sys|clk_o_inferred_clock_RNO
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_1__i_clk_gate_sys|clk_o_inferred_clock_RNO
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_udmacore|genblk1_4__i_clk_gate_per|i_clk_gate|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_udma|i_i2s_udma|i_clkws_gen|i_clkgen0|r_clk_Z
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_apb_adv_timer|i_clk_gate_timer3|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_apb_adv_timer|i_clk_gate_timer1|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_apb_adv_timer|i_clk_gate_timer0|clk_o
+set_instance_assignment -name ADV_NETLIST_OPT_ALLOWED NEVER_ALLOW -to i_pulpissimo|soc_domain_i|pulp_soc_i|soc_peripherals_i|i_apb_adv_timer|i_clk_gate_timer2|clk_o

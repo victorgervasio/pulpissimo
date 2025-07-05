@@ -1,0 +1,30 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09-SP2
+Install: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+OS: Ubuntu 24.04.2 LTS
+Hostname: victor-Aspire-A315-56
+max virtual memory: unlimited (bytes)
+max user processes: 78566
+max stack size: 8000000 (bytes)
+
+
+Implementation : synplify_xilinx_pulpissimo_work
+
+# Written on Tue Jul  1 14:48:59 2025
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work/xilinx_pulpissimo.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+

@@ -1,0 +1,2 @@
+@E: CG501 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/pulpissimo-zedboard/rtl/xilinx_pulpissimo.v":34:5:34:8|Expecting delimiter: , or ; or )
+

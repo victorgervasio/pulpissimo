@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version T-2022.09-SP2
+#--  Project file /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work/xilinx_pulpissimo.prd
+#--  Written on Tue Jul  1 18:04:54 2025
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

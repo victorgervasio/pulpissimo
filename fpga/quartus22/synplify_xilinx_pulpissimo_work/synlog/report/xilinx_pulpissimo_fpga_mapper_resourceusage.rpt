@@ -1,0 +1,36 @@
+##### START OF AREA REPORT #####[
+Design view:work.xilinx_pulpissimo(verilog)
+Selecting part 5CSXFC6D6F31C6
+
+Total combinational functions 36761 of 83820 (43%)
+ALUT usage by number of inputs
+		  7 input functions 	 685
+		  6 input functions 	 6698
+		  5 input functions 	 8656
+		  4 input functions 	 6914
+		  <=3 input functions 	 13808
+ALUTs by mode
+		  normal mode            31561
+		  extended LUT mode      685
+		  arithmetic mode        4353
+		  shared arithmetic mode 162
+Total registers 15572 of 167640 ( 9%)
+Total Estimated Packed ALMs 23267 of 41910 (55%)
+I/O pins 38 of 499 ( 8%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP.M9X9: 4
+DSP.M18X18_FULL: 5
+DSP.M18X18_SUMOF2: 2
+DSP.M27X27: 1
+DSP Blocks:     12 
+ShiftTap:       0  (0 registers)
+M10Ks:           5  (0% of 553)
+Memory ALUTs:   80  (0% of 20955)
+Total ESB:      1282 bits 
+
+##### END OF AREA REPORT #####]
+

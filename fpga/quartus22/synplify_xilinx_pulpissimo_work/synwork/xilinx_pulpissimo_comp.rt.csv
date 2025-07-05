@@ -1,0 +1,19 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, dm_mem_Z555,0h:00m:04s,0h:00m:02s,0h:00m:00s,0h:00m:01s,   722 MB,    33 MB,    23 MB,    10 MB,     0 MB
+work, rr_arb_tree__gen388_241_9_32s_0_1_1_1_4__internal_typedef_209,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   722 MB,     2 MB,     1 MB,     1 MB,     0 MB
+work, rr_arb_tree__gen277_223_9_32s_0_1_1_1_4__internal_typedef_204,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   722 MB,     2 MB,     1 MB,     1 MB,     0 MB
+work, axi_xbar_slv_aw_chan_t_mst_aw_chan_t_w_chan_t_slv_b_chan_t_mst_b_chan_t_slv_ar_chan_t_mst_ar_chan_t_slv_r_chan_t_mst_r_chan_t_slv_req_t_slv_resp_t_mst_req_t_mst_resp_t_addr_map_rule_t_32_Z247,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   722 MB,    61 MB,    60 MB,     0 MB,     0 MB
+work, riscv_pmp_16s,0h:00m:03s,0h:00m:00s,0h:00m:00s,0h:00m:03s,   722 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, riscv_cs_registers_Z106,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   722 MB,    19 MB,     0 MB,    19 MB,     0 MB
+work, fpnew_cast_multi__gen2_15_Z105,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   722 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, norm_div_sqrt_mvp,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   722 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, fpnew_fma_multi__gen0_10_Z98,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   725 MB,     2 MB,     0 MB,     0 MB,     2 MB
+work, fpnew_top_32_3s_4s_5s_Z95,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   725 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, riscv_ex_stage_1s_1s_0s_0s_0s_3s_6s_15s_5s,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   725 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, riscv_alu_0s_1s,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   743 MB,    18 MB,     0 MB,     0 MB,    18 MB
+work, riscv_id_stage_Z94,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   786 MB,    52 MB,     0 MB,     8 MB,    44 MB
+work, riscv_register_file_6s_32s_1s_0s_32s_32s_64s,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:02s,   786 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, fc_subsystem_Z88,0h:00m:05s,0h:00m:05s,0h:00m:00s,0h:00m:00s,   786 MB,    30 MB,    30 MB,     0 MB,     0 MB
+work, soc_event_generator_32s_160s_8s_8s_7s_169s,0h:00m:04s,0h:00m:00s,0h:00m:00s,0h:00m:03s,   786 MB,     4 MB,     0 MB,     3 MB,     0 MB
+work, soc_event_arbiter_169s_8s,0h:00m:04s,0h:00m:00s,0h:00m:01s,0h:00m:02s,   815 MB,    69 MB,     0 MB,    40 MB,    28 MB
+work, udma_spim_txrx,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   815 MB,     0 MB,     0 MB,     0 MB,     0 MB

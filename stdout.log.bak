@@ -1,0 +1,112 @@
+
+                               Synplify Pro (R) 
+
+               Version T-2022.09-SP2 for linux64 - Nov 25, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/linux_a_64/mbin/synplify
+Install:     /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+Hostname:    victor-Aspire-A315-56
+Date:        Tue Jul  1 18:02:08 2025
+Version:     T-2022.09-SP2
+
+Arguments:   -product synplify_pro
+ProductType: synplify_base
+
+License checkout: synplifypremierdp
+License: synplifypremierdp from server license (Using premium license)
+Licensed Vendor: All FPGA
+License Option: ident
+
+
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+/home/victor/pulp_shared_vm/pulp_box/pulpissimo/proj_1.prjuse_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+Opening object source file /home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/safe_domain.sv
+Opening object source file /home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/safe_domain.sv
+use_module_idb is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=750
+@N Implementation '/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work/xilinx_pulpissimo.prj|synplify_xilinx_pulpissimo_work' design hierarchy loaded from database
+While running 64-bit - Linux build
+
+@E::Signal 000 error in synplify
+Stack trace
+ID:ui202209syn/154/synplify
+===========
+0xe2c8f2
+0xe2cbdf
+0x6fefdd
+0x7329b0e4532f
+0x7329b0e9eb2c
+0x7329b0e4527d
+0x7329b0e288fe
+0x7329b0e297b5
+0x7329b0ea8ff4
+0x7329b0eab38b
+0x7329b0eaddad
+0x1dd72ac
+0x1970c0a
+0x197096f
+0x187cc1a
+0x18ed835
+0x18f70d6
+0x7329b55e84bf
+0x7329b48fee31
+0x7329b48fffd6
+0x7329b4cb9e31
+0x7329b4cb9f83
+0x7329b4d73279
+0x7329b49576cf
+0x7329b490496b
+0x7329b490b622
+0x7329b55d55bc
+0x7329b490ac8e
+0x7329b49818b3
+0x7329b497fb9d
+0x7329b49a7311
+0x7329b41145c4
+0x7329b4173736
+0x7329b4113a62
+0x7329b56036c3
+0x7329b49a73b5
+0x7329b55d3f70
+0x7329b55d4284
+0x7329b55d9888
+0x4cb355
+0x7329b0e2a1c9
+
+Please open a web case about this problem. A Synopsys CAE will then contact you.
+
+Instructions to open a web-case:
+1.  Go to the Synopsys support web site, https://solvnetplus.synopsys.com. 
+2.  Login with your user name and password. If you do not have an account, please register and set one up.
+3.  Click the `Enter A Call' link.
+4.  Provide a detailed description of the problem, and fill in all required fields.
+5.  Attach any test cases or archived project files required to reproduce the problem. 

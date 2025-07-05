@@ -1,0 +1,20 @@
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":1725:22:1725:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":1832:22:1832:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":2553:22:2553:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":3108:22:3108:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":4364:22:4364:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_mf.v":58:45:58:57|Unrecognized synthesis directive syn_black_box. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_mf.v":62:42:62:54|Unrecognized synthesis directive syn_black_box. Verify the correct directive name.
+@W: CG275 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v":17:7:17:43|Duplicate module name umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 (using last description encountered)!
+@W: CS138 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":16999:3:16833:8|Macro definition for UMR3___GUARD__DW_AXI_GM_ALL_INCLUDES__VH__ not found. Cannot undefine.
+@W: CS138 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":21650:3:21450:8|Macro definition for UMR3___GUARD__DW_AXI_GS_ALL_INCLUDES__VH__ not found. Cannot undefine.
+@W: CG966 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27593:5:27593:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@W: CG966 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27593:5:27593:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":20:52:20:53|Unrecognized synthesis directive dc. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":122:41:122:43|Unrecognized synthesis directive fix. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv":19:51:19:52|Unrecognized synthesis directive dc. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv":16:46:16:47|Unrecognized synthesis directive dc. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv":24:51:24:52|Unrecognized synthesis directive dc. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv":18:54:18:55|Unrecognized synthesis directive dc. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter.sv":18:54:18:55|Unrecognized synthesis directive dc. Verify the correct directive name.
+

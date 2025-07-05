@@ -29,7 +29,7 @@ module xilinx_pulpissimo (
    inout  wire pad_uart_cts, //Mapped to spim_sck
 
    inout  wire led0_o, //Mapped to spim_csn1
-   inout  wire led1_o, //Mapped to cam_pclk
+   inout  wire led1_o, //Mapped to cam_pclk -- output  wire led1_o, //Mapped to cam_pclk
    inout  wire led2_o, //Mapped to cam_hsync
    inout  wire led3_o, //Mapped to cam_data0
    inout  wire led4_o, //Mapped to spim_sdio0
@@ -38,18 +38,18 @@ module xilinx_pulpissimo (
    inout  wire led7_o, //Mapped to spim_sdio3
 
    inout  wire switch0_i, //Mapped to cam_data1
-   inout  wire switch1_i, //Mapped to cam_data2
-   inout  wire switch2_i, //Mapped to cam_data7
+   input  wire switch1_i, //Mapped to cam_data2
+   input  wire switch2_i, //Mapped to cam_data7
    inout  wire switch3_i, //Mapped to cam_vsync
    inout  wire switch4_i, //Mapped to sdio_data0
    inout  wire switch5_i, //Mapped to sdio_data1
    inout  wire switch6_i, //Mapped to sdio_data2
    inout  wire switch7_i, //Mapped to sdio_data3
 
-   inout  wire btnu_i, //Mapped to cam_data3
-   inout  wire btnr_i, //Mapped to cam_data4
-   inout  wire btnd_i, //Mapped to cam_data5
-   inout  wire btnl_i, //Mapped to cam_data6
+   input  wire btnu_i, //Mapped to cam_data6
+   inout  wire btnr_i, //Mapped to cam_data5
+   inout  wire btnd_i, //Mapped to cam_data3
+   inout  wire btnl_i, //Mapped to cam_data4
 
    inout  wire pad_i2c0_sda, //Mapped to i2c0_sda
    inout  wire pad_i2c0_scl, //Mapped to i2c0_scl
@@ -78,16 +78,18 @@ module xilinx_pulpissimo (
   assign rst_n = ~pad_reset;
 
   // Input clock buffer
-  BUFG i_sysclk_bufg (
-     .I(ref_clk_i),
-     .O(ref_clk_int)
-  );
+  //BUFG i_sysclk_bufg (
+  //   .I(ref_clk_i),
+  //   .O(ref_clk_int)
+  //);
+  assign ref_clk_int = ref_clk_i; /* synthesis syn_keep=1 */
 
   // TCK clock buffer (dedicated route is false in constraints)
-  IBUF i_tck_iobuf (
-    .I(pad_jtag_tck),
-    .O(tck_int)
-  );
+  //IBUF i_tck_iobuf (
+  //  .I(pad_jtag_tck),
+  //  .O(tck_int)
+  //);
+  assign tck_int = pad_jtag_tck; /* synthesis syn_keep=1 */
 
   // PULPissimo instance
   pulpissimo #(
@@ -132,7 +134,7 @@ module xilinx_pulpissimo (
     .pad_jtag_tdi(pad_jtag_tdi),
     .pad_jtag_tdo(pad_jtag_tdo),
     .pad_jtag_tms(pad_jtag_tms),
-    .pad_jtag_trst(1'b1),
+    //.pad_jtag_trst(1'b1),
     .pad_xtal_in(ref_clk_int),
     .pad_bootsel()
   );

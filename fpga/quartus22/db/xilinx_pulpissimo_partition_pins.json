@@ -1,0 +1,89 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led0_o",
+					"strict" : false
+				},
+				{
+					"name" : "pad_jtag_tdo",
+					"strict" : false
+				},
+				{
+					"name" : "pad_uart_rts",
+					"strict" : false
+				},
+				{
+					"name" : "pad_uart_cts",
+					"strict" : false
+				},
+				{
+					"name" : "led4_o",
+					"strict" : false
+				},
+				{
+					"name" : "led5_o",
+					"strict" : false
+				},
+				{
+					"name" : "led6_o",
+					"strict" : false
+				},
+				{
+					"name" : "led7_o",
+					"strict" : false
+				},
+				{
+					"name" : "pad_i2c0_sda",
+					"strict" : false
+				},
+				{
+					"name" : "pad_i2c0_scl",
+					"strict" : false
+				},
+				{
+					"name" : "pad_i2c1_scl",
+					"strict" : false
+				},
+				{
+					"name" : "pad_i2c1_sda",
+					"strict" : false
+				},
+				{
+					"name" : "pad_pmod1_4",
+					"strict" : false
+				},
+				{
+					"name" : "pad_pmod1_5",
+					"strict" : false
+				},
+				{
+					"name" : "pad_jtag_tms",
+					"strict" : false
+				},
+				{
+					"name" : "pad_jtag_tck",
+					"strict" : false
+				},
+				{
+					"name" : "pad_reset",
+					"strict" : false
+				},
+				{
+					"name" : "switch4_i",
+					"strict" : false
+				},
+				{
+					"name" : "switch0_i",
+					"strict" : false
+				},
+				{
+					"name" : "ref_clk_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

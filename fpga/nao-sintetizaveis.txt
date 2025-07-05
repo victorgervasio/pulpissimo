@@ -1,0 +1,47 @@
+
+Error: Synplify Pro Error: @E: CG285 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv":32:12:32:20|Expecting statement
+Error: Synplify Pro Error: @E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv":46:8:46:10|Expecting endmodule
+Error: Synplify Pro Error: @E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":127:40:127:47|Expecting expression
+Error: Synplify Pro Error: @E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":159:12:159:17|Expecting target variable, found lock_q -- possible misspelling
+Error: Synplify Pro Error: @E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":187:12:187:16|Expecting target variable, found req_q -- possible misspelling
+Error: Synplify Pro Error: @E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":238:10:238:13|Expecting target variable, found rr_q -- possible misspelling
+Error: Synplify Pro Error: @E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":126:40:126:47|Expecting expression
+Error: Synplify Pro Error: @E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":141:35:141:42|Expecting expression
+Error: Synplify Pro Error: @E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":300:2:300:4|Expecting endmodule
+Error: Synplify Pro Error: @E: CG855 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/axi_cdc.sv":15:7:15:13|Duplicate module/interface name axi_cdc
+Error: Synplify Pro Error: @E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_fma.sv":66:38:66:45|Expecting expression
+Error: Synplify Pro Error: @E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv":139:35:139:42|Expecting expression
+Error: Synplify Pro Error: @E: CG915 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv":200:25:200:36|Could not find type for parameter type
+Error: Synplify Pro Error: @E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_opgroup_multifmt_slice.sv":390:4:390:6|Expecting endmodule
+Error: Synplify Pro Error: @E: CG855 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/pulp_clk_cells_xilinx.sv":53:7:53:21|Duplicate module/interface name pulp_clock_mux2
+Error: Synplify Pro Error: @E: CG855 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/apb_timer_unit.sv":36:7:36:20|Duplicate module/interface name apb_timer_unit
+Error: Error: Encountered error while running Synplify Pro synthesis tool -- can't complete design synthesis
+Error: Error: Encountered error while running NativeLink synthesis script
+Error: Error: NativeLink flow failed to complete synthesis
+Error: Error: For messages from NativeLink scripts, check the file /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus_nativelink_synthesis.log
+Error (23031): Evaluation of Tcl script /home/victor/intelFPGA_lite/23.1std/quartus/common/tcl/internal/nativelink/qnativesyn.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 21 errors, 57 warnings
+	Error: Peak virtual memory: 465 megabytes
+	Error: Processing ended: Tue Jun 10 15:19:11 2025
+	Error: Elapsed time: 00:00:13
+	Error: Total CPU time (on all processors): 00:00:02
+Error (293001): Quartus Prime Full Compilation was unsuccessful. 23 errors, 57 warnings
+
+
+Error: Synplify Pro Error: @E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":127:40:127:47|Expecting expression
+Error: Synplify Pro Error: @E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":159:12:159:17|Expecting target variable, found lock_q -- possible misspelling
+Error: Synplify Pro Error: @E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":187:12:187:16|Expecting target variable, found req_q -- possible misspelling
+Error: Synplify Pro Error: @E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":238:10:238:13|Expecting target variable, found rr_q -- possible misspelling
+Error: Error: Encountered error while running Synplify Pro synthesis tool -- can't complete design synthesis
+Error: Error: Encountered error while running NativeLink synthesis script
+Error: Error: NativeLink flow failed to complete synthesis
+Error: Error: For messages from NativeLink scripts, check the file /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus_nativelink_synthesis.log
+Error (23031): Evaluation of Tcl script /home/victor/intelFPGA_lite/23.1std/quartus/common/tcl/internal/nativelink/qnativesyn.tcl unsuccessful
+Error: Quartus Prime Shell was unsuccessful. 9 errors, 49 warnings
+	Error: Peak virtual memory: 465 megabytes
+	Error: Processing ended: Tue Jun 10 17:58:14 2025
+	Error: Elapsed time: 00:00:14
+	Error: Total CPU time (on all processors): 00:00:02
+Error (293001): Quartus Prime Full Compilation was unsuccessful. 11 errors, 49 warnings
+Error: Synplify Pro Error: @E: CG389 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_top.sv":151:4:151:12|Reference to undefined module rr_arb_tree
+Error: Synplify Pro Error: @E: CG389 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_ex_stage.sv":459:12:459:23|Reference to undefined module fpnew_top

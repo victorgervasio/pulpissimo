@@ -1,0 +1,5 @@
+`define FPGA_TARGET_INTEL 1
+`define PULP_FPGA_EMUL 1
+`define AXI4_XCHECK_OFF 1
+`define SOCKIT 1
+

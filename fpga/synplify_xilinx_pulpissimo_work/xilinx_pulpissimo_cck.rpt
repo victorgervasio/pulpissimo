@@ -1,0 +1,113 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09-SP2
+Install: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+OS: Ubuntu 24.04.2 LTS
+Hostname: victor-Aspire-A315-56
+max virtual memory: unlimited (bytes)
+max user processes: 78566
+max stack size: 8000000 (bytes)
+
+
+Implementation : synplify_xilinx_pulpissimo_work
+
+# Written on Fri Jun 27 19:07:04 2025
+
+##### DESIGN INFO #######################################################
+
+Top View:                "xilinx_pulpissimo"
+Constraint File(s):      "/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work/xilinx_pulpissimo.sdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:btnd_i
+p:btnl_i
+p:btnr_i
+p:btnu_i
+p:led0_o
+p:led1_o
+p:led2_o
+p:led3_o
+p:led4_o
+p:led5_o
+p:led6_o
+p:led7_o
+p:pad_i2c0_scl
+p:pad_i2c0_sda
+p:pad_i2c1_scl
+p:pad_i2c1_sda
+p:pad_jtag_tck
+p:pad_jtag_tdi
+p:pad_jtag_tdo
+p:pad_jtag_tms
+p:pad_pmod1_4
+p:pad_pmod1_5
+p:pad_pmod1_6
+p:pad_pmod1_7
+p:pad_reset
+p:pad_uart_cts
+p:pad_uart_rts
+p:pad_uart_rx
+p:pad_uart_tx
+p:ref_clk_i
+p:switch0_i
+p:switch1_i
+p:switch2_i
+p:switch3_i
+p:switch4_i
+p:switch5_i
+p:switch6_i
+p:switch7_i
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

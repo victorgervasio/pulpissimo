@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga
+Xapu_core_package
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1749492854
+!i10b 1
+!s100 ?V^dN:c<QhlPFDgDa4XY_3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzTd4nFIh:1PPi1Jj8SfXK1
+VzTd4nFIh:1PPi1Jj8SfXK1
+S1
+R0
+w1749492854
+8/tmp/v3BqCMw/1/apu_core_package.sv
+F/tmp/v3BqCMw/1/apu_core_package.sv
+!i122 11
+L0 22 0
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1749492854.000000
+!s107 /tmp/v3BqCMw/1/apu_core_package.sv|
+!s90 -quiet|-lint|/tmp/v3BqCMw/1/apu_core_package.sv|
+!i113 1
+Z4 o-quiet -lint
+Z5 tCvgOpt 0
+vpulpissimo
+R1
+!s110 1748987931
+!i10b 1
+!s100 _L3E=QJ`NOT1ONb9bV=lj3
+R2
+IMXeYczOAdTBg_570OCULg2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1748987931
+8/tmp/vvtynkc/10/pulpissimo.sv
+F/tmp/vvtynkc/10/pulpissimo.sv
+!i122 10
+L0 13 926
+R3
+r1
+!s85 0
+31
+!s108 1748987931.000000
+!s107 /home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/includes/pulp_soc_defines.sv|/tmp/vvtynkc/10/pulpissimo.sv|
+!s90 -quiet|-lint|/tmp/vvtynkc/10/pulpissimo.sv|
+!i113 1
+R4
+R5
+vxilinx_pulpissimo
+!s110 1748984672
+!i10b 1
+!s100 >cViXaW7JYm??e@1iBTkm0
+R2
+Ic<U<@bCIJoVOgHfe_A5_62
+R6
+R0
+w1748984672
+8/tmp/vvtynkc/2/xilinx_pulpissimo.v
+F/tmp/vvtynkc/2/xilinx_pulpissimo.v
+!i122 3
+L0 23 118
+R3
+r1
+!s85 0
+31
+!s108 1748984672.000000
+!s107 /tmp/vvtynkc/2/xilinx_pulpissimo.v|
+!s90 -quiet|-lint|/tmp/vvtynkc/2/xilinx_pulpissimo.v|
+!i113 1
+R4
+R5

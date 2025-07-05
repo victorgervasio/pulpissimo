@@ -15,16 +15,20 @@ module pad_functional_pd
    input  logic             I,
    output logic             O,
    input  logic             PEN,
-   inout  logic             PAD
+   inout  wire              PAD
+	//inout  logic             PAD
 );
 
-  (* PULLDOWN = "YES" *)
-  IOBUF iobuf_i (
-    .T ( OEN ),
-    .I ( I    ),
-    .O ( O    ),
-    .IO( PAD  )
-  );
+	assign PAD = (OEN == 1'b0) ?
+									 I : 1'bz;
+	assign O = PAD;
+//  (* PULLDOWN = "YES" *)
+//  IOBUF iobuf_i (
+//    .T ( OEN ),
+//    .I ( I    ),
+//    .O ( O    ),
+//    .IO( PAD  )
+//  );
 
 endmodule
 
@@ -34,15 +38,19 @@ module pad_functional_pu
    input  logic             I,
    output logic             O,
    input  logic             PEN,
-   inout  logic             PAD
+	inout  wire              PAD
+	//   inout  logic             PAD
 );
 
-  (* PULLUP = "YES" *)
-  IOBUF iobuf_i (
-    .T ( OEN ),
-    .I ( I    ),
-    .O ( O    ),
-    .IO( PAD  )
-  );
+	assign PAD = (OEN == 1'b0) ?
+									 I : 1'bz;
+	assign O = PAD;
+//  (* PULLUP = "YES" *)
+//  IOBUF iobuf_i (
+//    .T ( OEN ),
+//    .I ( I    ),
+//    .O ( O    ),
+//    .IO( PAD  )
+//  );
 
 endmodule

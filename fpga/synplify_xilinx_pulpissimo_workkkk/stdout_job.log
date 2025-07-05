@@ -1,0 +1,81 @@
+Synplify Pro (R) Job Log
+Date: 17:23:34    09-Jun-2025
+Install Directory: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+
+JobFlow: synplify_xilinx_pulpissimo_work
+   Run Start Time: 17:23:34
+   Runtime: 00s
+   Executable Run Time: 0 - (Sum of all child executables)
+   Current Working Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work
+
+   JobFlow: synthesis
+      Run Start Time: 17:23:34
+      Runtime: 00s
+      Executable Run Time: 0 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 17:23:34
+         Runtime: 00s
+         Executable Run Time: 0 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 17:23:34
+            Runtime: 00s
+            Executable Run Time: 0 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin/c_hdl
+               Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work
+               Run State: complete
+               Return Code: 2
+               Has Errors: yes
+               Run Start Time: 17:23:34
+               Run Time: 00s
+               Executable Run Time: 0 - (Executable run time excluding UI processing)
+               Memory Usage: 2.808 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+            Job: multi_srs_gen
+               executable: bin/syn_nfilter
+               Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work
+               Run State: Canceled
+               Return Code: -
+               Has Errors: yes
+               Run Start Time: -
+               Run Time: 00s
+               Executable Run Time: 0 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+               CDPL: off
+
+         Job: premap
+            executable: bin/m_altera
+            Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work
+            Run State: Canceled
+            Return Code: -
+            Has Errors: yes
+            Run Start Time: -
+            Run Time: 00s
+            Executable Run Time: 0 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no
+            CDPL: off
+
+      JobFlow: map
+         Run Start Time: -
+         Runtime: 00s
+         Executable Run Time: 0 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin/m_altera
+            Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/synplify_xilinx_pulpissimo_work
+            Run State: Canceled
+            Return Code: -
+            Has Errors: yes
+            Run Start Time: -
+            Run Time: 00s
+            Executable Run Time: 0 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no
+            CDPL: off

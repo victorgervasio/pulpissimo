@@ -1,0 +1,197 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09-SP2
+Install: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+OS: Ubuntu 24.04.2 LTS
+Hostname: victor-Aspire-A315-56
+max virtual memory: unlimited (bytes)
+max user processes: 78566
+max stack size: 8000000 (bytes)
+
+
+Implementation : synplify_xilinx_pulpissimo_work
+
+# Written on Fri Jul  4 17:41:58 2025
+
+##### DESIGN INFO #######################################################
+
+Top View:                "xilinx_pulpissimo"
+Constraint File(s):      "/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work/xilinx_pulpissimo.sdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                Ending                                                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                  System                                                  |     17.850           |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_18|clk_o_inferred_clock               |     3.667            |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_19|clk_o_inferred_clock               |     3.667            |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_20|clk_o_inferred_clock               |     3.667            |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_21_12|clk_o_inferred_clock            |     3.667            |     No paths         |     No paths         |     No paths                         
+System                                                  pad_control_1s_1s_2s|cam_pclk_o_inferred_clock          |     2.285            |     No paths         |     No paths         |     No paths                         
+System                                                  pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     |     241.272          |     No paths         |     241.272          |     No paths                         
+System                                                  pulp_clock_gating_21_6|clk_o_inferred_clock             |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_21_7|clk_o_inferred_clock             |     241.748          |     No paths         |     241.748          |     No paths                         
+System                                                  pulp_clock_gating_21_4|clk_o_inferred_clock             |     3.012            |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_21_2|clk_o_inferred_clock             |     3.012            |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_21_3|clk_o_inferred_clock             |     242.981          |     No paths         |     242.981          |     No paths                         
+System                                                  pulp_clock_gating_1|clk_o_inferred_clock                |     1.491            |     No paths         |     No paths         |     No paths                         
+System                                                  pulp_clock_gating_10|clk_o_inferred_clock               |     5.846            |     No paths         |     5.846            |     No paths                         
+System                                                  i2s_clk_gen_1|r_clk_derived_clock                       |     1000.000         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_18|clk_o_inferred_clock               System                                                  |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_18|clk_o_inferred_clock               pulp_clock_gating_18|clk_o_inferred_clock               |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_18|clk_o_inferred_clock               pulp_clock_gating_19|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_18|clk_o_inferred_clock               pulp_clock_gating_20|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_18|clk_o_inferred_clock               pulp_clock_gating_21_12|clk_o_inferred_clock            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_19|clk_o_inferred_clock               System                                                  |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_19|clk_o_inferred_clock               pulp_clock_gating_18|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_19|clk_o_inferred_clock               pulp_clock_gating_19|clk_o_inferred_clock               |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_19|clk_o_inferred_clock               pulp_clock_gating_20|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_19|clk_o_inferred_clock               pulp_clock_gating_21_12|clk_o_inferred_clock            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_20|clk_o_inferred_clock               System                                                  |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_20|clk_o_inferred_clock               pulp_clock_gating_18|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_20|clk_o_inferred_clock               pulp_clock_gating_19|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_20|clk_o_inferred_clock               pulp_clock_gating_20|clk_o_inferred_clock               |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_20|clk_o_inferred_clock               pulp_clock_gating_21_12|clk_o_inferred_clock            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_12|clk_o_inferred_clock            System                                                  |     3.667            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_12|clk_o_inferred_clock            pulp_clock_gating_18|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_12|clk_o_inferred_clock            pulp_clock_gating_19|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_12|clk_o_inferred_clock            pulp_clock_gating_20|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_12|clk_o_inferred_clock            pulp_clock_gating_21_12|clk_o_inferred_clock            |     3.667            |     No paths         |     No paths         |     No paths                         
+pad_control_1s_1s_2s|cam_pclk_o_inferred_clock          pad_control_1s_1s_2s|cam_pclk_o_inferred_clock          |     2.285            |     No paths         |     No paths         |     No paths                         
+pad_control_1s_1s_2s|cam_pclk_o_inferred_clock          pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     |     241.272          |     241.272          |     120.636          |     120.636                          
+pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_6|clk_o_inferred_clock             pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+pulp_clock_gating_21_6|clk_o_inferred_clock             pulp_clock_gating_21_6|clk_o_inferred_clock             |     1000.000         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_6|clk_o_inferred_clock             pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_7|clk_o_inferred_clock             System                                                  |     241.748          |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_7|clk_o_inferred_clock             pulp_clock_gating_21_7|clk_o_inferred_clock             |     241.748          |     No paths         |     120.874          |     No paths                         
+pulp_clock_gating_21_7|clk_o_inferred_clock             pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_4|clk_o_inferred_clock             pulp_clock_gating_21_4|clk_o_inferred_clock             |     3.012            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_4|clk_o_inferred_clock             pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_2|clk_o_inferred_clock             pulp_clock_gating_21_2|clk_o_inferred_clock             |     3.012            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_2|clk_o_inferred_clock             pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_21_3|clk_o_inferred_clock             pulp_clock_gating_21_3|clk_o_inferred_clock             |     242.981          |     No paths         |     121.491          |     No paths                         
+pulp_clock_gating_21_3|clk_o_inferred_clock             pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_1|clk_o_inferred_clock                pulp_clock_gating_1|clk_o_inferred_clock                |     1.491            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_1|clk_o_inferred_clock                pulp_clock_gating_10|clk_o_inferred_clock               |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               System                                                  |     5.846            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pad_control_1s_1s_2s|cam_pclk_o_inferred_clock          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_21_6|clk_o_inferred_clock             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_21_7|clk_o_inferred_clock             |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_21_4|clk_o_inferred_clock             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_21_2|clk_o_inferred_clock             |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_21_3|clk_o_inferred_clock             |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_1|clk_o_inferred_clock                |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               pulp_clock_gating_10|clk_o_inferred_clock               |     5.846            |     No paths         |     No paths         |     No paths                         
+pulp_clock_gating_10|clk_o_inferred_clock               i2s_clk_gen_1|r_clk_derived_clock                       |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+i2s_clk_gen_1|r_clk_derived_clock                       pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+i2s_clk_gen_1|r_clk_derived_clock                       i2s_clk_gen_1|r_clk_derived_clock                       |     1000.000         |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:btnd_i
+p:btnl_i
+p:btnr_i
+p:btnu_i
+p:led0_o (bidir end point)
+p:led0_o (bidir start point)
+p:led1_o (bidir end point)
+p:led1_o (bidir start point)
+p:led2_o (bidir end point)
+p:led2_o (bidir start point)
+p:led3_o (bidir end point)
+p:led3_o (bidir start point)
+p:led4_o (bidir end point)
+p:led4_o (bidir start point)
+p:led5_o (bidir end point)
+p:led5_o (bidir start point)
+p:led6_o (bidir end point)
+p:led6_o (bidir start point)
+p:led7_o (bidir end point)
+p:led7_o (bidir start point)
+p:pad_i2c0_scl (bidir end point)
+p:pad_i2c0_scl (bidir start point)
+p:pad_i2c0_sda (bidir end point)
+p:pad_i2c0_sda (bidir start point)
+p:pad_i2c1_scl (bidir end point)
+p:pad_i2c1_scl (bidir start point)
+p:pad_i2c1_sda (bidir end point)
+p:pad_i2c1_sda (bidir start point)
+p:pad_jtag_tck
+p:pad_jtag_tdi
+p:pad_jtag_tdo
+p:pad_jtag_tms
+p:pad_pmod1_4 (bidir end point)
+p:pad_pmod1_4 (bidir start point)
+p:pad_pmod1_5 (bidir end point)
+p:pad_pmod1_5 (bidir start point)
+p:pad_pmod1_6 (bidir end point)
+p:pad_pmod1_6 (bidir start point)
+p:pad_pmod1_7 (bidir end point)
+p:pad_pmod1_7 (bidir start point)
+p:pad_reset
+p:pad_uart_rts (bidir end point)
+p:pad_uart_rts (bidir start point)
+p:pad_uart_rx (bidir end point)
+p:pad_uart_rx (bidir start point)
+p:pad_uart_tx (bidir end point)
+p:pad_uart_tx (bidir start point)
+p:ref_clk_i
+p:switch0_i
+p:switch1_i
+p:switch2_i
+p:switch3_i
+p:switch4_i
+p:switch5_i
+p:switch6_i
+p:switch7_i
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

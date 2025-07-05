@@ -1,0 +1,2 @@
+@W: FZ100 |CRITICAL WARNING: Downgraded from ERROR Unsupported Quartus device library version: Verilog/VHDL compiled using quartus_prime231 device library is currently not supported. The recommended clearbox version is quartus_prime223. For more information please see the release notes.
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_prime223 device library, but clearbox version is quartus_prime231.

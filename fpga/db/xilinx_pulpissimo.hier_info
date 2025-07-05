@@ -1,0 +1,41 @@
+|xilinx_pulpissimo
+ref_clk_i => ~NO_FANOUT~
+pad_uart_rx => ~NO_FANOUT~
+pad_uart_tx => ~NO_FANOUT~
+pad_uart_rts => ~NO_FANOUT~
+pad_uart_cts => ~NO_FANOUT~
+led0_o => ~NO_FANOUT~
+led1_o => ~NO_FANOUT~
+led2_o => ~NO_FANOUT~
+led3_o <= led3_o_out.OUT
+led4_o => ~NO_FANOUT~
+led5_o => ~NO_FANOUT~
+led6_o => ~NO_FANOUT~
+led7_o => ~NO_FANOUT~
+switch0_i => ~NO_FANOUT~
+switch1_i => ~NO_FANOUT~
+switch2_i => ~NO_FANOUT~
+switch3_i => ~NO_FANOUT~
+switch4_i => ~NO_FANOUT~
+switch5_i => ~NO_FANOUT~
+switch6_i => ~NO_FANOUT~
+switch7_i => ~NO_FANOUT~
+btnu_i => ~NO_FANOUT~
+btnr_i => ~NO_FANOUT~
+btnd_i => ~NO_FANOUT~
+btnl_i => ~NO_FANOUT~
+pad_i2c0_sda => ~NO_FANOUT~
+pad_i2c0_scl => ~NO_FANOUT~
+pad_i2c1_scl => ~NO_FANOUT~
+pad_i2c1_sda => ~NO_FANOUT~
+pad_pmod1_4 => ~NO_FANOUT~
+pad_pmod1_5 => ~NO_FANOUT~
+pad_pmod1_6 => ~NO_FANOUT~
+pad_pmod1_7 => ~NO_FANOUT~
+pad_reset => ~NO_FANOUT~
+pad_jtag_tck => ~NO_FANOUT~
+pad_jtag_tdi => ~NO_FANOUT~
+pad_jtag_tdo <= pad_jtag_tdo_out.OUT
+pad_jtag_tms => ~NO_FANOUT~
+
+

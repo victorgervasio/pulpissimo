@@ -1,0 +1,87 @@
+@P:  Part : 5csxfc6d6fc31-6
+@P:  Worst Slack : -7.137
+@P:  i2s_clk_gen_1|r_clk_derived_clock - Estimated Frequency : 652.3 MHz
+@P:  i2s_clk_gen_1|r_clk_derived_clock - Requested Frequency : 2.3 MHz
+@P:  i2s_clk_gen_1|r_clk_derived_clock - Estimated Period : 1.533
+@P:  i2s_clk_gen_1|r_clk_derived_clock - Requested Period : 425.651
+@P:  i2s_clk_gen_1|r_clk_derived_clock - Slack : 212.059
+@P:  pad_control_1s_1s_2s|cam_pclk_o_inferred_clock - Estimated Frequency : 324.0 MHz
+@P:  pad_control_1s_1s_2s|cam_pclk_o_inferred_clock - Requested Frequency : 381.2 MHz
+@P:  pad_control_1s_1s_2s|cam_pclk_o_inferred_clock - Estimated Period : 3.086
+@P:  pad_control_1s_1s_2s|cam_pclk_o_inferred_clock - Requested Period : 2.623
+@P:  pad_control_1s_1s_2s|cam_pclk_o_inferred_clock - Slack : -0.463
+@P:  pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock - Estimated Frequency : 391.1 MHz
+@P:  pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock - Requested Frequency : 2.3 MHz
+@P:  pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock - Estimated Period : 2.557
+@P:  pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock - Requested Period : 426.087
+@P:  pad_control_1s_1s_2s|i2s_slave_sck_o_inferred_clock - Slack : 211.765
+@P:  pulp_clock_gating_1|clk_o_inferred_clock - Estimated Frequency : 389.0 MHz
+@P:  pulp_clock_gating_1|clk_o_inferred_clock - Requested Frequency : 457.6 MHz
+@P:  pulp_clock_gating_1|clk_o_inferred_clock - Estimated Period : 2.571
+@P:  pulp_clock_gating_1|clk_o_inferred_clock - Requested Period : 2.185
+@P:  pulp_clock_gating_1|clk_o_inferred_clock - Slack : -0.386
+@P:  pulp_clock_gating_10|clk_o_inferred_clock - Estimated Frequency : 105.7 MHz
+@P:  pulp_clock_gating_10|clk_o_inferred_clock - Requested Frequency : 2.3 MHz
+@P:  pulp_clock_gating_10|clk_o_inferred_clock - Estimated Period : 9.464
+@P:  pulp_clock_gating_10|clk_o_inferred_clock - Requested Period : 425.877
+@P:  pulp_clock_gating_10|clk_o_inferred_clock - Slack : 212.037
+@P:  pulp_clock_gating_18|clk_o_inferred_clock - Estimated Frequency : 207.5 MHz
+@P:  pulp_clock_gating_18|clk_o_inferred_clock - Requested Frequency : 244.1 MHz
+@P:  pulp_clock_gating_18|clk_o_inferred_clock - Estimated Period : 4.820
+@P:  pulp_clock_gating_18|clk_o_inferred_clock - Requested Period : 4.097
+@P:  pulp_clock_gating_18|clk_o_inferred_clock - Slack : -0.723
+@P:  pulp_clock_gating_19|clk_o_inferred_clock - Estimated Frequency : 216.7 MHz
+@P:  pulp_clock_gating_19|clk_o_inferred_clock - Requested Frequency : 255.0 MHz
+@P:  pulp_clock_gating_19|clk_o_inferred_clock - Estimated Period : 4.614
+@P:  pulp_clock_gating_19|clk_o_inferred_clock - Requested Period : 3.922
+@P:  pulp_clock_gating_19|clk_o_inferred_clock - Slack : -0.692
+@P:  pulp_clock_gating_20|clk_o_inferred_clock - Estimated Frequency : 214.9 MHz
+@P:  pulp_clock_gating_20|clk_o_inferred_clock - Requested Frequency : 252.9 MHz
+@P:  pulp_clock_gating_20|clk_o_inferred_clock - Estimated Period : 4.652
+@P:  pulp_clock_gating_20|clk_o_inferred_clock - Requested Period : 3.954
+@P:  pulp_clock_gating_20|clk_o_inferred_clock - Slack : -0.698
+@P:  pulp_clock_gating_21_2|clk_o_inferred_clock - Estimated Frequency : 193.8 MHz
+@P:  pulp_clock_gating_21_2|clk_o_inferred_clock - Requested Frequency : 228.0 MHz
+@P:  pulp_clock_gating_21_2|clk_o_inferred_clock - Estimated Period : 5.160
+@P:  pulp_clock_gating_21_2|clk_o_inferred_clock - Requested Period : 4.386
+@P:  pulp_clock_gating_21_2|clk_o_inferred_clock - Slack : -0.774
+@P:  pulp_clock_gating_21_3|clk_o_inferred_clock - Estimated Frequency : 90.8 MHz
+@P:  pulp_clock_gating_21_3|clk_o_inferred_clock - Requested Frequency : 2.3 MHz
+@P:  pulp_clock_gating_21_3|clk_o_inferred_clock - Estimated Period : 11.010
+@P:  pulp_clock_gating_21_3|clk_o_inferred_clock - Requested Period : 429.679
+@P:  pulp_clock_gating_21_3|clk_o_inferred_clock - Slack : 209.335
+@P:  pulp_clock_gating_21_4|clk_o_inferred_clock - Estimated Frequency : 192.2 MHz
+@P:  pulp_clock_gating_21_4|clk_o_inferred_clock - Requested Frequency : 226.1 MHz
+@P:  pulp_clock_gating_21_4|clk_o_inferred_clock - Estimated Period : 5.204
+@P:  pulp_clock_gating_21_4|clk_o_inferred_clock - Requested Period : 4.423
+@P:  pulp_clock_gating_21_4|clk_o_inferred_clock - Slack : -0.781
+@P:  pulp_clock_gating_21_6|clk_o_inferred_clock - Estimated Frequency : 314.7 MHz
+@P:  pulp_clock_gating_21_6|clk_o_inferred_clock - Requested Frequency : 2.3 MHz
+@P:  pulp_clock_gating_21_6|clk_o_inferred_clock - Estimated Period : 3.178
+@P:  pulp_clock_gating_21_6|clk_o_inferred_clock - Requested Period : 425.651
+@P:  pulp_clock_gating_21_6|clk_o_inferred_clock - Slack : 422.473
+@P:  pulp_clock_gating_21_7|clk_o_inferred_clock - Estimated Frequency : 269.3 MHz
+@P:  pulp_clock_gating_21_7|clk_o_inferred_clock - Requested Frequency : 2.3 MHz
+@P:  pulp_clock_gating_21_7|clk_o_inferred_clock - Estimated Period : 3.714
+@P:  pulp_clock_gating_21_7|clk_o_inferred_clock - Requested Period : 427.037
+@P:  pulp_clock_gating_21_7|clk_o_inferred_clock - Slack : 211.662
+@P:  pulp_clock_gating_21_12|clk_o_inferred_clock - Estimated Frequency : 213.5 MHz
+@P:  pulp_clock_gating_21_12|clk_o_inferred_clock - Requested Frequency : 251.1 MHz
+@P:  pulp_clock_gating_21_12|clk_o_inferred_clock - Estimated Period : 4.685
+@P:  pulp_clock_gating_21_12|clk_o_inferred_clock - Requested Period : 3.982
+@P:  pulp_clock_gating_21_12|clk_o_inferred_clock - Slack : -0.703
+@P:  System - Estimated Frequency : 30.7 MHz
+@P:  System - Requested Frequency : 38.9 MHz
+@P:  System - Estimated Period : 32.587
+@P:  System - Requested Period : 25.680
+@P:  System - Slack : -6.906
+@P: xilinx_pulpissimo Part : 5csxfc6d6fc31-6
+@P: xilinx_pulpissimo I/O ATOMs : 36
+@P: xilinx_pulpissimo Total LUTs : 36761 
+@P: xilinx_pulpissimo Register bits : 15572
+@P: xilinx_pulpissimo Packed ALMs : 23267
+@P: xilinx_pulpissimo .M9X9 : 4
+@P: xilinx_pulpissimo .M18X18_FULL : 5
+@P: xilinx_pulpissimo .M18X18_SUMOF2 : 2
+@P: xilinx_pulpissimo .M27X27 : 1
+@P:  CPU Time : 0h:24m:49s

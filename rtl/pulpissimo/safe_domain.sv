@@ -198,7 +198,8 @@ module safe_domain #(
         output logic             oe_i2s0_sdi_o        ,
         output logic             oe_i2s1_sdi_o
     );
-
+	/* synthesis syn_preserve=1*/;
+	/* synthesis syn_noprune=1*/;
     logic        s_test_clk;
 
     logic        s_rtc_int;

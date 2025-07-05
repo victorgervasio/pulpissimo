@@ -1,0 +1,81 @@
+Synplify Pro (R) Job Log
+Date: 18:07:23    04-Jul-2025
+Install Directory: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+
+JobFlow: synplify_xilinx_pulpissimo_work
+   Run Start Time: 17:40:00
+   Runtime: 27m:23s
+   Executable Run Time: 1641 - (Sum of all child executables)
+   Current Working Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work
+
+   JobFlow: synthesis
+      Run Start Time: 17:40:00
+      Runtime: 27m:23s
+      Executable Run Time: 1641 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 17:40:00
+         Runtime: 01m:58s
+         Executable Run Time: 117 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 17:40:00
+            Runtime: 01m:27s
+            Executable Run Time: 86 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin/c_hdl
+               Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 17:40:00
+               Run Time: 01m:22s
+               Executable Run Time: 81 - (Executable run time excluding UI processing)
+               Memory Usage: 2.808 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+            Job: multi_srs_gen
+               executable: bin/syn_nfilter
+               Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 17:41:22
+               Run Time: 05s
+               Executable Run Time: 5 - (Executable run time excluding UI processing)
+               Memory Usage: 2.808 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+         Job: premap
+            executable: bin/m_altera
+            Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 17:41:27
+            Run Time: 31s
+            Executable Run Time: 31 - (Executable run time excluding UI processing)
+            Memory Usage: 2.808 MB
+            Up-to-date (run skipped): no
+            CDPL: off
+
+      JobFlow: map
+         Run Start Time: 17:41:58
+         Runtime: 25m:25s
+         Executable Run Time: 1524 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin/m_altera
+            Run Directory: /home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/quartus22/synplify_xilinx_pulpissimo_work
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 17:41:58
+            Run Time: 25m:25s
+            Executable Run Time: 1524 - (Executable run time excluding UI processing)
+            Memory Usage: 2.808 MB
+            Up-to-date (run skipped): no
+            CDPL: off

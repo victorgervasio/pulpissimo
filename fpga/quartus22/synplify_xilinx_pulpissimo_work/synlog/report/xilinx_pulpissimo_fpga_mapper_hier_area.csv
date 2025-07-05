@@ -1,0 +1,947 @@
+
+. Module name, ATOMS, SHARED ARITHMATIC MODE, COMB ARITHMETIC MODE, REGISTERS, SYNC RAMS, MACs
+. xilinx_pulpissimo, 0, 162, 4353, 15572, 5, 12
+.	. pulpissimo_Z560, 0, 162, 4353, 15572, 5, 12
+.	.	. safe_domain, 0, 0, 0, 0, 0, 0
+.	.	.	. pad_control_1s_1s_2s, 0, 0, 0, 0, 0, 0
+.	.	. soc_domain_Z559, 0, 162, 4353, 15572, 5, 12
+.	.	.	. pulp_soc_Z23, 0, 162, 4353, 15572, 5, 12
+.	.	.	.	. apb2per_32s_32s, 0, 0, 0, 1, 0, 0
+.	.	.	.	. dm_top_1024s_32s_Z556, 0, 0, 0, 585, 0, 0
+.	.	.	.	.	. dm_csrs_1024s_32s_10s_6_40_Z554, 0, 0, 0, 576, 0, 0
+.	.	.	.	.	.	. fifo_v2__internal_typedef_45_324_0_32s_2s_1s_1s_1s, 0, 0, 0, 60, 0, 0
+.	.	.	.	.	.	.	. fifo_v3__internal_typedef_45_325_0_32s_2s_1s_2s, 0, 0, 0, 60, 0, 0
+.	.	.	.	.	. dm_mem_Z555, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	. dm_sba_32s, 0, 0, 0, 5, 0, 0
+.	.	.	.	. dmi_jtag_613749187, 0, 0, 0, 247, 0, 0
+.	.	.	.	.	. dmi_cdc, 0, 0, 0, 142, 0, 0
+.	.	.	.	.	.	. cdc_2phase__internal_typedef_46_318__internal_typedef_46, 0, 0, 0, 79, 0, 0
+.	.	.	.	.	.	.	. cdc_2phase_dst__internal_typedef_46_320__internal_typedef_46, 0, 0, 0, 41, 0, 0
+.	.	.	.	.	.	.	. cdc_2phase_src__internal_typedef_46_319__internal_typedef_46, 0, 0, 0, 38, 0, 0
+.	.	.	.	.	.	. cdc_2phase__internal_typedef_47_321__internal_typedef_47, 0, 0, 0, 63, 0, 0
+.	.	.	.	.	.	.	. cdc_2phase_dst__internal_typedef_47_323__internal_typedef_47, 0, 0, 0, 32, 0, 0
+.	.	.	.	.	.	.	. cdc_2phase_src__internal_typedef_47_322__internal_typedef_47, 0, 0, 0, 31, 0, 0
+.	.	.	.	.	. dmi_jtag_tap_5s_613749187, 0, 0, 0, 35, 0, 0
+.	.	.	.	. edge_propagator_rx, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	. pulp_sync_wedge, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	. pulp_sync_2s, 0, 0, 0, 2, 0, 0
+.	.	.	.	. fc_subsystem_Z88, 0, 130, 2609, 4823, 0, 10
+.	.	.	.	.	. apb_interrupt_cntrl_32s_8s_1s_Z87, 0, 0, 0, 70, 0, 0
+.	.	.	.	.	.	. generic_fifo_8s_4s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	. riscv_core_Z107, 0, 130, 2609, 4753, 0, 10
+.	.	.	.	.	.	. riscv_cs_registers_Z106, 0, 0, 32, 992, 0, 0
+.	.	.	.	.	.	. riscv_ex_stage_1s_1s_0s_0s_0s_3s_6s_15s_5s, 0, 130, 891, 517, 0, 10
+.	.	.	.	.	.	.	. fpnew_top_32_3s_4s_5s_Z95, 0, 32, 711, 380, 0, 1
+.	.	.	.	.	.	.	.	. fpnew_opgroup_block_Z101, 0, 0, 33, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. fpnew_opgroup_fmt_slice_Z102, 0, 0, 33, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. fpnew_noncomp_0_0_1_32_8_23_0_0, 0, 0, 33, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fpnew_classifier_0_2s_32_8_23, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. fpnew_opgroup_block_Z103, 0, 9, 130, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. fpnew_opgroup_multifmt_slice_Z104, 0, 9, 130, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. fpnew_cast_multi__gen2_15_Z105, 0, 9, 130, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fpnew_classifier_0_1s_32_8_23, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fpnew_rounding_32s, 0, 0, 32, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. lzc_32s_18446744073709551615s_5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. fpnew_opgroup_block_Z96, 0, 10, 245, 0, 0, 1
+.	.	.	.	.	.	.	.	.	. fpnew_opgroup_multifmt_slice_Z97, 0, 10, 245, 0, 0, 1
+.	.	.	.	.	.	.	.	.	.	. fpnew_fma_multi__gen0_10_Z98, 0, 10, 245, 0, 0, 1
+.	.	.	.	.	.	.	.	.	.	.	. fpnew_classifier_0_3s_32_8_23, 0, 0, 10, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fpnew_rounding_31, 0, 0, 30, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. lzc_51_18446744073709551615s_6, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. fpnew_opgroup_block_Z99, 0, 13, 303, 378, 0, 0
+.	.	.	.	.	.	.	.	.	. fpnew_opgroup_multifmt_slice_Z100, 0, 13, 303, 378, 0, 0
+.	.	.	.	.	.	.	.	.	.	. fpnew_divsqrt_multi__gen1_12_16_1_1_32_5s_0_1, 0, 13, 303, 378, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. div_sqrt_top_mvp, 0, 13, 303, 293, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. norm_div_sqrt_mvp, 0, 0, 81, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. nrbd_nrsc_mvp, 0, 13, 178, 151, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	.	. control_mvp, 0, 13, 178, 151, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	. iteration_div_sqrt_mvp_58s, 0, 0, 59, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	. iteration_div_sqrt_mvp_58s_0, 0, 0, 59, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	.	.	. iteration_div_sqrt_mvp_58s_2, 0, 0, 60, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. preprocess_mvp, 0, 0, 44, 142, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	.	. lzc_53s_18446744073709551615s_6, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	.	. lzc_53s_18446744073709551615s_6_0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. rr_arb_tree_output_t_8_4s_32s_0_1_0_1_2__internal_typedef_62, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. riscv_alu_0s_1s, 0, 0, 166, 108, 0, 0
+.	.	.	.	.	.	.	.	. alu_ff, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. riscv_alu_div, 0, 0, 97, 108, 0, 0
+.	.	.	.	.	.	.	. riscv_apu_disp, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	. riscv_mult_0s, 0, 98, 14, 6, 0, 9
+.	.	.	.	.	.	. riscv_id_stage_Z94, 0, 0, 159, 2796, 0, 0
+.	.	.	.	.	.	.	. register_file_test_wrap_6s_32s_1s_0s, 0, 0, 0, 2016, 0, 0
+.	.	.	.	.	.	.	.	. riscv_register_file_6s_32s_1s_0s_32s_32s_64s, 0, 0, 0, 2016, 0, 0
+.	.	.	.	.	.	.	. riscv_controller_1s, 0, 0, 0, 10, 0, 0
+.	.	.	.	.	.	.	. riscv_decoder_Z93, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. riscv_hwloop_regs_2s_1s, 0, 0, 64, 192, 0, 0
+.	.	.	.	.	.	.	. riscv_int_controller_1s, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	. riscv_if_stage_2s_32s_1s_437323776, 0, 0, 87, 407, 0, 0
+.	.	.	.	.	.	.	. riscv_compressed_decoder_1s, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. riscv_hwloop_controller_2s, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. riscv_prefetch_buffer, 0, 0, 58, 271, 0, 0
+.	.	.	.	.	.	.	.	. riscv_fetch_fifo, 0, 0, 29, 198, 0, 0
+.	.	.	.	.	.	. riscv_load_store_unit, 0, 0, 32, 40, 0, 0
+.	.	.	.	.	.	. riscv_pmp_16s, 0, 0, 1408, 1, 0, 0
+.	.	.	.	. jtag_tap_top, 0, 0, 0, 91, 0, 0
+.	.	.	.	.	. jtagreg_9s_0s, 0, 0, 0, 9, 0, 0
+.	.	.	.	.	.	. bscell, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_1, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_2, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_3, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_4, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_5, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_6, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. bscell_8, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. tap_top, 0, 0, 0, 66, 0, 0
+.	.	.	.	. lint_jtag_wrap_32s_32s_Z557, 0, 0, 0, 106, 0, 0
+.	.	.	.	.	. adbg_lintonly_top_32s_32s_6s, 0, 0, 0, 106, 0, 0
+.	.	.	.	.	.	. adbg_lint_module_32s_32s_6s, 0, 0, 0, 96, 0, 0
+.	.	.	.	. soc_clk_rst_gen, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	. rstgen, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. rstgen_bypass, 0, 0, 0, 5, 0, 0
+.	.	.	.	. soc_interconnect_wrap_Z114, 0, 0, 188, 2066, 0, 0
+.	.	.	.	.	. axi_lite_to_apb_intf_addr_map_rule_t_311_1s_1s_32s_32s_1s_Z543, 0, 0, 0, 141, 0, 0
+.	.	.	.	.	.	. axi_lite_to_apb_axi_req_t_axi_resp_t_apb_req_t_apb_resp_t_addr_map_rule_t_312_Z542, 0, 0, 0, 141, 0, 0
+.	.	.	.	.	.	.	. addr_decode_addr_t_addr_map_rule_t_317_1s_1s_1__internal_typedef_263, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. rr_arb_tree_int_req_t_313_2_32s_0_1_1_1_1__internal_typedef_262, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. spill_register__internal_typedef_260_315_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. spill_register_int_req_t_314_0, 0, 0, 0, 132, 0, 0
+.	.	.	.	.	.	.	. spill_register_int_resp_t_316_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	. axi_to_axi_lite_intf_32s_32s_5s_6s_1s_1s_18446744073709551615s_Z541, 0, 0, 107, 451, 0, 0
+.	.	.	.	.	.	. axi_to_axi_lite_full_req_t_full_resp_t_lite_req_t_lite_resp_t_284_Z540, 0, 0, 107, 451, 0, 0
+.	.	.	.	.	.	.	. axi_atop_filter_full_req_t_full_resp_t_285_5s_1s_2s, 0, 0, 9, 34, 0, 0
+.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_286_r_resp_cmd_t, 0, 0, 0, 10, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_287_0_8s_1s_1s_1s_1s, 0, 0, 0, 10, 0, 0
+.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_288_0_8s_1s_1s_1s, 0, 0, 0, 10, 0, 0
+.	.	.	.	.	.	.	. axi_burst_splitter_full_req_t_full_resp_t_289_1s_1s_32s_32s_5s_6s_1s, 0, 0, 98, 403, 0, 0
+.	.	.	.	.	.	.	.	. axi_burst_splitter_ax_chan_ar_chan_t_307_5s_1s__internal_typedef_253, 0, 0, 49, 71, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_burst_splitter_counters_1s_5s_1_1, 0, 0, 9, 20, 0, 0
+.	.	.	.	.	.	.	.	.	.	. counter_9s_0_0, 0, 0, 9, 9, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. delta_counter_9s_0_0, 0, 0, 9, 9, 0, 0
+.	.	.	.	.	.	.	.	.	.	. id_queue_cnt_idx_t_306_5s_1s_32s_1s_1s_1s_2_0, 0, 0, 0, 11, 0, 0
+.	.	.	.	.	.	.	.	. axi_burst_splitter_ax_chan_aw_chan_t_305_5s_1s__internal_typedef_250, 0, 0, 49, 71, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_burst_splitter_counters_1s_5s_1_0, 0, 0, 9, 20, 0, 0
+.	.	.	.	.	.	.	.	.	.	. counter_9s_0, 0, 0, 9, 9, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. delta_counter_9s_0, 0, 0, 9, 9, 0, 0
+.	.	.	.	.	.	.	.	.	.	. id_queue_cnt_idx_t_306_5s_1s_32s_1s_1s_1s_2, 0, 0, 0, 11, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux_aw_chan_t_w_chan_t_b_chan_t_ar_chan_t_r_chan_t_full_req_t_full_resp_t_290_Z538, 0, 0, 0, 205, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen487_292_5s_1s_32s, 0, 0, 0, 96, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_53, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_54, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_55, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_56, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_57, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_58, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_59, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_60, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_61, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_62, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_63, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_64, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_65, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_66, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_67, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_68, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_69, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_70, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_71, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_72, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_73, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_74, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_75, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_76, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_77, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_78, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_79, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_80, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_81, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_82, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_83, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_84, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen493_298_5s_1s_32s, 0, 0, 0, 96, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_100, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_101, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_102, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_103, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_104, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_105, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_106, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_107, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_108, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_109, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_110, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_111, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_112, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_113, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_114, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_115, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_116, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_85, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_86, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_87, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_88, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_89, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_90, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_91, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_92, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_93, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_94, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_95, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_96, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_97, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_98, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_99, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen488_293_1_32s_1s_1s_1s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen491_296_2s_32s_0_1_1_1_1__internal_typedef_244, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen495_300_2s_32s_0_1_1_1_1__internal_typedef_246, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv_full_req_t_full_resp_t_301_5s_2_64_0_1s_Z539, 0, 0, 0, 53, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_8, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_8, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_302_1_32s_1s_1s_1s, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_303_0_32s_2_1s_2, 0, 0, 0, 14, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_304_0_32s_1s_1s_1s, 0, 0, 0, 15, 0, 0
+.	.	.	.	.	.	.	. axi_to_axi_lite_id_reflect_full_req_t_full_resp_t_lite_req_t_lite_resp_t_308_5s_1s_1s_1_lite_resp_t, 0, 0, 0, 14, 0, 0
+.	.	.	.	.	.	.	.	. fifo_v3_id_t_309_1_32s_1s_1s_1s, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	. fifo_v3_id_t_310_1_32s_1s_1s_1s, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	. soc_interconnect_Z148, 0, 0, 81, 1474, 0, 0
+.	.	.	.	.	.	. axi_xbar_intf_addr_map_rule_t_31_6s_5_Z286, 0, 0, 81, 1429, 0, 0
+.	.	.	.	.	.	.	. axi_xbar_slv_aw_chan_t_mst_aw_chan_t_w_chan_t_slv_b_chan_t_mst_b_chan_t_slv_ar_chan_t_mst_ar_chan_t_slv_r_chan_t_mst_r_chan_t_slv_req_t_slv_resp_t_mst_req_t_mst_resp_t_addr_map_rule_t_32_Z247, 0, 0, 81, 1429, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen118__gen119__gen120__gen121__gen122__gen123__gen124_98_Z254, 0, 0, 0, 28, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen126_100_1_1s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_29, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_30, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen132_106_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_31, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_32, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen127_101_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen130_104_3_32s_0_1_1_1_2__internal_typedef_130, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen134_108_3_32s_0_1_1_1_2__internal_typedef_132, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen143__gen144__gen145__gen146__gen147__gen148__gen149_119_Z256, 0, 0, 0, 26, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen151_121_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_25, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_26, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen157_127_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_27, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_28, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen152_122_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen155_125_3_32s_0_1_1_1_2__internal_typedef_143, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen159_129_3_32s_0_1_1_1_2__internal_typedef_145, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen168__gen169__gen170__gen171__gen172__gen173__gen174_140_Z258, 0, 0, 0, 28, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen176_142_1_1s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_37, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_38, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen182_148_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_39, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_40, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen177_143_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen180_146_3_32s_0_1_1_1_2__internal_typedef_156, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen184_150_3_32s_0_1_1_1_2__internal_typedef_158, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen193__gen194__gen195__gen196__gen197__gen198__gen199_161_Z260, 0, 0, 0, 28, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen201_163_1_1s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_33, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_34, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen207_169_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_35, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_36, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen202_164_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen205_167_3_32s_0_1_1_1_2__internal_typedef_169, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen209_171_3_32s_0_1_1_1_2__internal_typedef_171, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen218__gen219__gen220__gen221__gen222__gen223__gen224_182_Z262, 0, 0, 0, 28, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen226_184_1_1s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_45, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_46, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen232_190_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_47, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_48, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen227_185_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen230_188_3_32s_0_1_1_1_2__internal_typedef_182, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen234_192_3_32s_0_1_1_1_2__internal_typedef_184, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen243__gen244__gen245__gen246__gen247__gen248__gen249_203_Z264, 0, 0, 0, 28, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen251_205_1_1s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_18, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen257_211_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_19, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_20, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen252_206_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen255_209_3_32s_0_1_1_1_2__internal_typedef_195, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen259_213_3_32s_0_1_1_1_2__internal_typedef_197, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen43__gen44__gen45__gen46__gen47__gen48__gen49_35_Z248, 0, 0, 0, 26, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen51_37_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_41, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_42, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen57_43_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_43, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_44, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen52_38_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen55_41_3_32s_0_1_1_1_2__internal_typedef_91, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen59_45_3_32s_0_1_1_1_2__internal_typedef_93, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen68__gen69__gen70__gen71__gen72__gen73__gen74_56_Z250, 0, 0, 0, 26, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen76_58_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_21, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_22, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen82_64_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_23, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_24, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen77_59_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen80_62_3_32s_0_1_1_1_2__internal_typedef_104, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen84_66_3_32s_0_1_1_1_2__internal_typedef_106, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_demux__gen93__gen94__gen95__gen96__gen97__gen98__gen99_77_Z252, 0, 0, 0, 28, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen101_79_1_1s_2s, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_49, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_50, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_demux_id_counters__gen107_85_1_1s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_51, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_1s_0_52, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen102_80_1_32s_1_1s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen105_83_3_32s_0_1_1_1_2__internal_typedef_117, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen109_87_3_32s_0_1_1_1_2__internal_typedef_119, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen110__gen111_88_1_3_64_1_4s_Z253, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen112__gen113_92_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_93_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_94_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_95_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_1, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_1, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_89_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_90_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_91_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen135__gen136_109_1_3_64_1_4s_Z255, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen137__gen138_113_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_114_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_115_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_116_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_2, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_2, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_110_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_111_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_112_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen160__gen161_130_1_3_64_1_4s_Z257, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen162__gen163_134_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_135_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_136_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_137_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_0, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_0, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_131_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_132_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_133_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen185__gen186_151_1_3_64_1_4s_Z259, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen187__gen188_155_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_156_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_157_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_158_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_3, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_3, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_152_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_153_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_154_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen210__gen211_172_1_3_64_1_4s_Z261, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen212__gen213_176_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_177_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_178_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_179_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_5, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_5, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_173_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_174_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_175_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen235__gen236_193_1_3_64_1_4s_Z263, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen237__gen238_197_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_198_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_199_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_200_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_6, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_6, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_194_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_195_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_196_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen260__gen261_214_1_3_64_1_4s_Z265, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen262__gen263_218_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_219_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_220_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_221_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_215_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_216_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_217_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen60__gen61_46_1_3_64_1_4s_Z249, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen62__gen63_50_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_51_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_52_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_53_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_4, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_4, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_47_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_48_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_49_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_err_slv__gen85__gen86_67_1_3_64_1_4s_Z251, 0, 0, 9, 87, 0, 0
+.	.	.	.	.	.	.	.	.	. axi_atop_filter__gen87__gen88_71_1_4s_3s, 0, 0, 9, 22, 0, 0
+.	.	.	.	.	.	.	.	.	.	. stream_register_r_resp_cmd_t_72_r_resp_cmd_t, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	. fifo_v2_r_resp_cmd_t_73_0_8s_1s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	.	.	.	. fifo_v3_r_resp_cmd_t_74_0_8s_1s_1s_1s, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. counter_8s_0_7, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	.	. delta_counter_8s_0_9_7, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_68_1_32s_4s_2s_4s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_id_t_69_0_32s_2_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3_r_data_t_70_0_32s_4s_2s_4s, 0, 0, 0, 43, 0, 0
+.	.	.	.	.	.	.	.	. axi_mux__gen264__gen265__gen266__gen267__gen268__gen269__gen270__gen271__gen272__gen273__gen274__gen275__gen276_222_Z266, 0, 0, 0, 42, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen278_224_1_32s_4_2s_4, 0, 0, 0, 23, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen277_223_9_32s_0_1_1_1_4__internal_typedef_204, 0, 0, 0, 14, 0, 0
+.	.	.	.	.	.	.	.	.	.	. lzc_9_0_4_13, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. lzc_9_0_4_9, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen279_225_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen280_226_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. axi_mux__gen375__gen376__gen377__gen378__gen379__gen380__gen381__gen382__gen383__gen384__gen385__gen386__gen387_240_Z276, 0, 0, 0, 358, 0, 0
+.	.	.	.	.	.	.	.	.	. fifo_v3__gen389_242_1_32s_4_2s_4, 0, 0, 0, 23, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen388_241_9_32s_0_1_1_1_4__internal_typedef_209, 0, 0, 0, 14, 0, 0
+.	.	.	.	.	.	.	.	.	.	. lzc_9_0_4_15, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. lzc_9_0_4_16, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. rr_arb_tree__gen393_246_9_32s_0_1_1_1_4__internal_typedef_212, 0, 0, 0, 14, 0, 0
+.	.	.	.	.	.	.	.	.	.	. lzc_9_0_4_17, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. lzc_9_0_4_18, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen390_243_0, 0, 0, 0, 108, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen391_244_0, 0, 0, 0, 68, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen392_245_0, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen394_247_0, 0, 0, 0, 104, 0, 0
+.	.	.	.	.	.	.	.	.	. spill_register__gen395_248_0, 0, 0, 0, 14, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z529, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_8, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z530, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_11, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z531, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_13, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z532, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_12, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z533, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z534, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_10, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z535, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_15, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z536, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_9, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	. lint2axi_wrap_1s_6s_32s_32s_4s_Z537, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	. lint_2_axi_32s_32s_4s_16s_6s_10s_1s_4s_FALSE_14, 0, 0, 0, 5, 0, 0
+.	.	.	.	. soc_peripherals_Z84, 0, 32, 1556, 7644, 5, 2
+.	.	.	.	.	. apb_adv_timer_32s_32s_16s_48s, 0, 0, 168, 1316, 0, 0
+.	.	.	.	.	.	. adv_timer_apb_if_32s, 0, 0, 0, 560, 0, 0
+.	.	.	.	.	.	. pulp_clock_gating_18, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. pulp_clock_gating_19, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. pulp_clock_gating_20, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. pulp_clock_gating_21_12, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. timer_module_16s_48s_0, 0, 0, 42, 187, 0, 0
+.	.	.	.	.	.	.	. comparator_9, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_9_0, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_9_1, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_9_2, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. input_stage_48s_3, 0, 0, 0, 17, 0, 0
+.	.	.	.	.	.	.	. prescaler_3, 0, 0, 8, 17, 0, 0
+.	.	.	.	.	.	.	. timer_cntrl_3, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. up_down_counter_3, 0, 0, 34, 68, 0, 0
+.	.	.	.	.	.	. timer_module_16s_48s_1, 0, 0, 42, 187, 0, 0
+.	.	.	.	.	.	.	. comparator_3_6, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_3_6_0, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_3_6_1, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_3_6_2, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. input_stage_48s_2, 0, 0, 0, 17, 0, 0
+.	.	.	.	.	.	.	. prescaler_2, 0, 0, 8, 17, 0, 0
+.	.	.	.	.	.	.	. timer_cntrl_2, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. up_down_counter_2, 0, 0, 34, 68, 0, 0
+.	.	.	.	.	.	. timer_module_16s_48s_2, 0, 0, 42, 187, 0, 0
+.	.	.	.	.	.	.	. comparator_4_6, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_4_6_0, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_4_6_1, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_4_6_2, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. input_stage_48s_1, 0, 0, 0, 17, 0, 0
+.	.	.	.	.	.	.	. prescaler_1, 0, 0, 8, 17, 0, 0
+.	.	.	.	.	.	.	. timer_cntrl_1, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. up_down_counter_1, 0, 0, 34, 68, 0, 0
+.	.	.	.	.	.	. timer_module_16s_48s_3, 0, 0, 42, 187, 0, 0
+.	.	.	.	.	.	.	. comparator_5_6, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_5_6_0, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_5_6_1, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. comparator_5_6_2, 0, 0, 0, 21, 0, 0
+.	.	.	.	.	.	.	. input_stage_48s_0, 0, 0, 0, 17, 0, 0
+.	.	.	.	.	.	.	. prescaler_0, 0, 0, 8, 17, 0, 0
+.	.	.	.	.	.	.	. timer_cntrl_0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. up_down_counter_0, 0, 0, 34, 68, 0, 0
+.	.	.	.	.	. apb_fll_if_32s, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. apb_gpio_32s_32s_6s, 0, 0, 0, 262, 0, 0
+.	.	.	.	.	. apb_soc_ctrl_32s_0s_0s_8s_6s, 0, 0, 0, 113, 0, 0
+.	.	.	.	.	. apb_timer_unit_32s, 0, 0, 192, 263, 0, 0
+.	.	.	.	.	.	. timer_unit_counter, 0, 0, 64, 33, 0, 0
+.	.	.	.	.	.	. timer_unit_counter_0, 0, 0, 32, 33, 0, 0
+.	.	.	.	.	.	. timer_unit_counter_1, 0, 0, 32, 65, 0, 0
+.	.	.	.	.	.	. timer_unit_counter_3, 0, 0, 64, 33, 0, 0
+.	.	.	.	.	. periph_bus_wrap_32s_32s_11s_Z56, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. apb_node_wrap_11s_32s_32s_Z68, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. apb_node_11s_32s_32s, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. pulp_sync_wedge_3, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	. pulp_sync_2s_2_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	. soc_event_generator_32s_160s_8s_8s_7s_169s, 0, 0, 0, 874, 0, 0
+.	.	.	.	.	.	. soc_event_arbiter_169s_8s, 0, 0, 0, 169, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_10, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_100, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_101, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_102, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_103, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_104, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_105, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_106, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_107, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_108, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_109, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_11, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_110, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_111, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_112, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_113, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_114, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_115, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_116, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_117, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_118, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_119, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_12, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_120, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_121, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_122, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_123, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_124, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_125, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_126, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_127, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_128, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_129, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_13, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_130, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_131, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_132, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_133, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_134, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_14, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_15, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_16, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_17, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_18, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_19, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_20, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_21, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_22, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_23, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_24, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_25, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_26, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_27, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_28, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_29, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_30, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_31, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_32, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_33, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_34, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_35, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_36, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_37, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_38, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_39, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_4, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_40, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_41, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_42, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_43, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_44, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_45, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_46, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_47, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_48, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_49, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_5, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_50, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_51, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_52, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_53, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_54, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_55, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_56, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_57, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_58, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_59, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_6, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_60, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_61, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_62, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_63, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_64, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_65, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_66, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_67, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_68, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_69, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_7, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_70, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_71, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_72, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_73, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_74, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_75, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_76, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_77, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_78, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_79, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_8, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_80, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_81, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_82, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_83, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_84, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_85, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_86, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_87, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_88, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_89, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_9, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_90, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_91, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_92, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_93, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_94, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_95, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_96, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_97, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_98, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_26_99, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_10, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_11, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_12, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_13, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_14, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_15, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_16, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_17, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_18, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_19, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_20, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_21, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_22, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_23, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_24, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_25, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_26, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_27, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_28, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_29, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_30, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_31, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_4, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_5, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_6, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_7, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_8, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. soc_event_queue_44_9, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	. udma_subsystem_Z83, 0, 32, 1196, 4813, 5, 2
+.	.	.	.	.	.	. camera_if_19s_20s_8s_8s, 0, 0, 80, 198, 0, 0
+.	.	.	.	.	.	.	. camera_reg_if_19s_20s, 0, 0, 0, 116, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_16s_8s, 0, 0, 0, 35, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_16s_8s, 0, 0, 0, 11, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_16s_8s, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_8s_3s_5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_4, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_8s_5, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_7, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_12_5, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_16s_8s, 0, 0, 0, 24, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_8s_12_5_1, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_3_5_1, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	. udma_core_Z82, 0, 0, 623, 1162, 2, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_10, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_2, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_3, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_4, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_6, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_7, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_8, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_9, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_async_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_21_7, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_async_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_21_6, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_async_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_21_4, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_async_4, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_21_3, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_async_5, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_21_2, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. pulp_clock_gating_async_7, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_1, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. udma_apb_if_32s_9, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. udma_ctrl_19s_20s_8, 0, 0, 0, 40, 0, 0
+.	.	.	.	.	.	.	. udma_rx_channels_Z81, 0, 0, 245, 412, 1, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_38s_4s_2s, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_59s_4s_2s, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. udma_arbiter_8_3s, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7_0, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7_1, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7_2, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7_3, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7_4, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_7_5, 0, 0, 35, 44, 0, 0
+.	.	.	.	.	.	.	.	. udma_stream_unit_19s_32s_1s_0s, 0, 0, 0, 79, 1, 0
+.	.	.	.	.	.	.	.	.	. io_tx_fifo_32s_4s_2s, 0, 0, 0, 77, 1, 0
+.	.	.	.	.	.	.	.	.	.	. io_generic_fifo_32s_4s_2s_0, 0, 0, 0, 77, 1, 0
+.	.	.	.	.	.	.	. udma_tx_channels_Z80, 0, 0, 378, 698, 1, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_27s_4s_2s, 0, 0, 0, 29, 1, 0
+.	.	.	.	.	.	.	.	. udma_arbiter_10_4s, 0, 0, 0, 10, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_10, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_11, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_12, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_6, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_8, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	.	.	. udma_ch_addrgen_19s_20s_1s_9, 0, 0, 54, 82, 0, 0
+.	.	.	.	.	.	. udma_filter_32s_8s_19s_20s, 0, 32, 276, 1289, 2, 2
+.	.	.	.	.	.	.	. udma_filter_au_32s, 0, 32, 0, 129, 0, 2
+.	.	.	.	.	.	.	. udma_filter_bincu_32s_20s, 0, 0, 42, 21, 0, 0
+.	.	.	.	.	.	.	. udma_filter_reg_if_19s_20s, 0, 0, 0, 672, 0, 0
+.	.	.	.	.	.	.	. udma_filter_rx_dataout_32s_8s_19s_4s_20s, 0, 0, 40, 47, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_32s_4s_2s_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_filter_tx_datafetch_32s_8s_19s_20s_0, 0, 0, 97, 206, 1, 0
+.	.	.	.	.	.	.	.	. io_tx_fifo_mark_32s_4s_2s_34s_1, 0, 0, 0, 86, 1, 0
+.	.	.	.	.	.	.	.	.	. io_generic_fifo_34s_4s_2s_1, 0, 0, 0, 77, 1, 0
+.	.	.	.	.	.	.	. udma_filter_tx_datafetch_32s_8s_19s_20s_1, 0, 0, 97, 210, 1, 0
+.	.	.	.	.	.	.	.	. io_tx_fifo_mark_32s_4s_2s_34s_0, 0, 0, 0, 90, 1, 0
+.	.	.	.	.	.	.	.	.	. io_generic_fifo_34s_4s_2s_0, 0, 0, 0, 81, 1, 0
+.	.	.	.	.	.	. udma_i2c_top_19s_20s_0, 0, 0, 46, 280, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_8s_2s_1s_1_1, 0, 0, 0, 22, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_8s_2s_1s_1_1, 0, 0, 0, 20, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_8s_4s_3_1, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_8s_4s_3_2, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_0_2, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_4_6, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_0_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_8s_4s_3_2, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_0_2, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_0_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_8s_4s_3_2, 0, 0, 0, 34, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_8s_4s_2, 0, 0, 0, 22, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_8s_4s_3_2, 0, 0, 0, 15, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_4s_2s_7, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_4s_2s_8, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_8, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_0_3_2, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_4_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_0_3_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_8s_4s_2, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_0_3_2, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_0_3_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_i2c_control_1, 0, 0, 46, 138, 0, 0
+.	.	.	.	.	.	.	.	. udma_i2c_bus_ctrl_1, 0, 0, 31, 76, 0, 0
+.	.	.	.	.	.	.	. udma_i2c_reg_if_19s_20s_1, 0, 0, 0, 67, 0, 0
+.	.	.	.	.	.	. udma_i2c_top_19s_20s_1, 0, 0, 46, 280, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_8s_2s_1s_1_0, 0, 0, 0, 22, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_8s_2s_1s_1_0, 0, 0, 0, 20, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_8s_4s_2, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_8s_4s_3_1, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_0_3_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_4_5, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_0_3_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_8s_4s_3_1, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_0_3_1, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_0_3_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_8s_4s_3_0, 0, 0, 0, 34, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_8s_4s_3_0, 0, 0, 0, 22, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_8s_4s_3_0, 0, 0, 0, 15, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_4s_2s_3, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_4s_2s_4, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_6, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_0_3_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_4_4, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_0_3_0, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_8s_4s_3_0, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_0_3_0, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_0_3_0, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_i2c_control_0, 0, 0, 46, 138, 0, 0
+.	.	.	.	.	.	.	.	. udma_i2c_bus_ctrl_0, 0, 0, 31, 76, 0, 0
+.	.	.	.	.	.	.	. udma_i2c_reg_if_19s_20s_0, 0, 0, 0, 67, 0, 0
+.	.	.	.	.	.	. udma_i2s_top_19s_20s_4s, 0, 0, 26, 289, 0, 0
+.	.	.	.	.	.	.	. i2s_clkws_gen, 0, 0, 16, 56, 0, 0
+.	.	.	.	.	.	.	.	. i2s_clk_gen_1, 0, 0, 16, 34, 0, 0
+.	.	.	.	.	.	.	.	. i2s_ws_gen_2, 0, 0, 0, 9, 0, 0
+.	.	.	.	.	.	.	.	. i2s_ws_gen_2_0, 0, 0, 0, 9, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_15, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_16, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_17, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_2s_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_2s_0_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. i2s_txrx, 0, 0, 10, 38, 0, 0
+.	.	.	.	.	.	.	.	. i2s_rx_channel, 0, 0, 0, 10, 0, 0
+.	.	.	.	.	.	.	.	. i2s_tx_channel, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	. pdm_top, 0, 0, 10, 20, 0, 0
+.	.	.	.	.	.	.	.	.	. varcic_5s_51s, 0, 0, 10, 13, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_32s_2s_1s_3, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_32s_2s_1s_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_4s_2, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_4s_3, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_1_3, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_6_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_1_3, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_4s_3, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_1_3, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_1_3, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_4s_3, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_4s_2, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_1_2, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_6_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_1_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_4s_2, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_1_2, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_1_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_i2s_reg_if_19s_20s_4s, 0, 0, 0, 153, 0, 0
+.	.	.	.	.	.	.	.	. edge_propagator_10, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_wedge_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. pulp_sync_2s_2_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	. udma_sdio_top_19s_20s, 0, 0, 26, 304, 0, 0
+.	.	.	.	.	.	.	. edge_propagator_8, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_10, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_2_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. edge_propagator_9, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_9, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_0_9, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_32s_2s_1s_2, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_32s_2s_1s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. pulp_sync_wedge_2, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_2s_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. sdio_txrx, 0, 0, 26, 111, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_14, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. sdio_txrx_cmd, 0, 0, 8, 69, 0, 0
+.	.	.	.	.	.	.	.	.	. sdio_crc7, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	. sdio_txrx_data, 0, 0, 18, 35, 0, 0
+.	.	.	.	.	.	.	. udma_clkgen_1, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_11, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_2_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_4s_0, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_4s_1, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_32s_4s_1, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_2, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_1_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_6_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_1_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_4s_1, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_1_1, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_1_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_4s_1, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_4s_0, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_1_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_6_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_1_0, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_4s_0, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_1_0, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_1_0, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_sdio_reg_if_19s_20s, 0, 0, 0, 131, 0, 0
+.	.	.	.	.	.	.	.	. edge_propagator_tx_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	. udma_spim_top_19s_20s_6s_8s, 0, 0, 41, 738, 1, 0
+.	.	.	.	.	.	.	. edge_propagator, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_3, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. edge_propagator_0, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_3_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. edge_propagator_1, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_3_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. edge_propagator_2, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_2, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_3_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. edge_propagator_3, 0, 0, 0, 6, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_8, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_0_8, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_32s_2s_1s, 0, 0, 0, 70, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_32s_2s_1s, 0, 0, 0, 68, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_32s_2s_1s_0, 0, 0, 0, 70, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_32s_2s_1s_0, 0, 0, 0, 68, 0, 0
+.	.	.	.	.	.	.	. udma_clkgen_0, 0, 0, 0, 5, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_21_8, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. pulp_sync_wedge_4_7, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	. pulp_sync_2s_0_7, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_8s, 0, 0, 0, 79, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_8s_1, 0, 0, 0, 55, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_32s_8s, 0, 0, 0, 44, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_8s_3s, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_8s_3s_0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_8s_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_12, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_8s, 0, 0, 0, 24, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_8s_12, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_3, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_8s_0, 0, 0, 0, 35, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_8s_2, 0, 0, 0, 11, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_32s_8s_2, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_8s_3s_3, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_1, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_8s_4_2, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_5_2, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_12_4_2, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_8s_2, 0, 0, 0, 24, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_8s_12_4_2, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_3_4_2, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_32s_8s_1, 0, 0, 0, 79, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_32s_8s_1_0, 0, 0, 0, 55, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_32s_8s_0, 0, 0, 0, 44, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_8s_3s_1, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_8s_3s_2, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_8s_1_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_12_0, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_32s_8s_0, 0, 0, 0, 24, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_8s_12_0, 0, 0, 0, 16, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_8s_3_0, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	. udma_spim_ctrl_6s, 0, 0, 25, 158, 1, 0
+.	.	.	.	.	.	.	.	. edge_propagator_tx_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_33s_6s_3s, 0, 0, 0, 85, 1, 0
+.	.	.	.	.	.	.	. udma_spim_reg_if_19s_20s, 0, 0, 0, 111, 0, 0
+.	.	.	.	.	.	.	. udma_spim_txrx, 0, 0, 16, 101, 0, 0
+.	.	.	.	.	.	.	.	. pulp_clock_gating_12, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. udma_uart_top_19s_20s, 0, 0, 32, 273, 0, 0
+.	.	.	.	.	.	.	. io_tx_fifo_8s_2s_1s_0, 0, 0, 0, 22, 0, 0
+.	.	.	.	.	.	.	.	. io_generic_fifo_8s_2s_1s_0, 0, 0, 0, 20, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_8s_4s_0, 0, 0, 0, 19, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_8s_4s_1, 0, 0, 0, 7, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_8s_4s_1, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	.	. syn_mlab_5, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_0_1, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_4_1, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_0_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_8s_4s_1, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_0_1, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_0_1, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_dc_fifo_8s_4s_1, 0, 0, 0, 51, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_din_8s_4s_0, 0, 0, 0, 39, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_data_buffer_8s_4s_0, 0, 0, 0, 32, 0, 0
+.	.	.	.	.	.	.	.	.	.	. onehot_to_bin_4s_2s_0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_full_detector_4s_0_0, 0, 0, 0, 3, 0, 0
+.	.	.	.	.	.	.	.	.	.	. dc_synchronizer_1s_0_1_4_0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_12_0_0, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	.	. dc_token_ring_fifo_dout_8s_4s_0, 0, 0, 0, 12, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_synchronizer_4s_12_0_0, 0, 0, 0, 8, 0, 0
+.	.	.	.	.	.	.	.	.	. dc_token_ring_4s_3_0_0, 0, 0, 0, 4, 0, 0
+.	.	.	.	.	.	.	. udma_uart_reg_if_19s_20s, 0, 0, 0, 90, 0, 0
+.	.	.	.	.	.	.	. udma_uart_rx, 0, 0, 16, 30, 0, 0
+.	.	.	.	.	.	.	. udma_uart_tx, 0, 0, 16, 35, 0, 0

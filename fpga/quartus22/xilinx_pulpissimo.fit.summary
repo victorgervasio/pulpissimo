@@ -1,0 +1,20 @@
+Fitter Status : Successful - Fri Jul  4 18:18:53 2025
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : xilinx_pulpissimo
+Top-level Entity Name : xilinx_pulpissimo
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 4,851 / 41,910 ( 12 % )
+Total registers : 3703
+Total pins : 38 / 499 ( 8 % )
+Total virtual pins : 0
+Total block memory bits : 462 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 3 / 553 ( < 1 % )
+Total DSP Blocks : 2 / 112 ( 2 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 0 / 15 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

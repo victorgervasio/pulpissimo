@@ -1,0 +1,5 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FA350 |Clearbox flow is not supported when QUARTUS_ROOTDIR is not set
+@N: FA351 |Clearbox flow is not supported because clearbox does not exist

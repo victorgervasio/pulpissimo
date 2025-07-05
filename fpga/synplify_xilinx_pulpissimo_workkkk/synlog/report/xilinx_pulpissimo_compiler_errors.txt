@@ -1,0 +1,11 @@
+@E: CG285 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv":32:12:32:20|Expecting statement
+@E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv":46:8:46:10|Expecting endmodule
+@E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":127:40:127:47|Expecting expression
+@E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":159:12:159:17|Expecting target variable, found lock_q -- possible misspelling
+@E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":187:12:187:16|Expecting target variable, found req_q -- possible misspelling
+@E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":238:10:238:13|Expecting target variable, found rr_q -- possible misspelling
+@E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":126:40:126:47|Expecting expression
+@E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":141:35:141:42|Expecting expression
+@E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":300:2:300:4|Expecting endmodule
+@E: Can't open file ips/cluster_interconnect/rtl/low_latency_interco/parameters.v
+

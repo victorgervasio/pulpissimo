@@ -1,0 +1,918 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG1343 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":735:14:735:33|Read directive read_comments_as_HDL on.
+@N: CG1344 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":743:14:743:33|Read directive read_comments_as_HDL off.
+@N: CG1222 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v":17:7:17:43|Previous declaration of module umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 found
+@N: CG334 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":1074:15:1074:27|Read directive translate_off.
+@N: CG333 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":1079:15:1079:26|Read directive translate_on.
+@N: CG334 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":26313:19:26313:31|Read directive translate_off.
+@N: CG333 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":26315:19:26315:30|Read directive translate_on.
+@N: CG334 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27417:19:27417:31|Read directive translate_off.
+@N: CG333 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27419:19:27419:30|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cf_math_pkg.sv":26:18:26:30|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cf_math_pkg.sv":40:18:40:29|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/exp_backoff.sv":84:9:84:21|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/exp_backoff.sv":96:9:96:20|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":138:10:138:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":152:10:152:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr.sv":293:10:293:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr.sv":313:10:313:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_16bit.sv":61:13:61:25|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_16bit.sv":66:13:66:24|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_8bit.sv":55:11:55:23|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_8bit.sv":59:11:59:22|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv":32:10:32:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv":37:10:37:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/plru_tree.sv":112:10:112:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/plru_tree.sv":118:10:118:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen_bypass.sv":50:14:50:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen_bypass.sv":56:14:56:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":125:10:125:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":131:10:131:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_intf.sv":43:12:43:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_intf.sv":48:12:48:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv":36:10:36:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv":42:10:42:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv":38:10:38:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv":44:10:44:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/addr_decode.sv":103:12:103:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/addr_decode.sv":157:12:157:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter.sv":239:12:239:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter.sv":245:12:245:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_2phase.sv":42:11:42:23|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_2phase.sv":46:11:46:22|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_gray.sv":136:12:136:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_gray.sv":141:12:141:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lzc.sv":52:14:52:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lzc.sv":56:14:56:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv":88:10:88:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv":94:10:94:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_xbar.sv":165:12:165:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_xbar.sv":197:12:197:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/id_queue.sv":267:10:267:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/id_queue.sv":276:10:276:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_to_mem.sv":119:10:119:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_to_mem.sv":133:10:133:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv":77:14:77:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv":79:14:79:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/find_first_one.sv":29:14:29:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/find_first_one.sv":33:14:33:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo.sv":73:15:73:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo.sv":88:15:88:26|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo_adv.sv":51:15:51:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo_adv.sv":69:15:69:26|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":70:14:70:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":77:14:77:25|Read directive translate_on.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/FanInPrimitive_Req_L2.sv":61:27:61:35|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/FanInPrimitive_Resp_L2.sv":40:27:40:35|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/MUX2_REQ_L2.sv":74:28:74:36|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/FanInPrimitive_Req_BRIDGE.sv":66:31:66:39|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/MUX2_REQ_BRIDGE.sv":73:30:73:38|Read full_case directive.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/XBAR_BRIDGE.sv":85:15:85:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/XBAR_BRIDGE.sv":91:15:91:26|Read directive translate_on.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Req.sv":114:29:114:37|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/MUX2_REQ.sv":121:28:121:36|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Resp.sv":72:29:72:37|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/FanInPrimitive_Req_PE.sv":110:31:110:39|Read full_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/MUX2_REQ_PE.sv":122:30:122:38|Read full_case directive.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/addr_dec_resp_mux.sv":175:10:175:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/addr_dec_resp_mux.sv":182:10:182:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/xbar.sv":123:10:123:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/xbar.sv":130:10:130:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/clos_net.sv":240:10:240:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/clos_net.sv":265:10:265:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/bfly_net.sv":304:10:304:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/bfly_net.sv":319:10:319:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect.sv":266:12:266:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect.sv":271:12:271:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect.sv":301:12:301:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect.sv":305:12:305:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect.sv":314:10:314:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect.sv":321:10:321:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_pkg.sv":108:14:108:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_pkg.sv":114:14:114:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":195:12:195:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":244:12:244:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":359:10:359:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":367:10:367:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":434:10:434:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":442:10:442:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_burst_splitter.sv":319:12:319:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_burst_splitter.sv":337:12:337:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_burst_splitter.sv":573:12:573:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_burst_splitter.sv":576:12:576:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_cut.sv":177:12:177:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_cut.sv":194:12:194:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_cut.sv":251:12:251:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_cut.sv":262:12:262:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_delayer.sv":185:10:185:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_delayer.sv":194:10:194:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":498:10:498:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":527:10:527:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":638:10:638:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":646:10:646:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_id_prepend.sv":110:10:110:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_id_prepend.sv":158:10:158:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_isolate.sv":256:10:256:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_isolate.sv":275:10:275:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_isolate.sv":335:12:335:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_isolate.sv":344:12:344:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_join.sv":25:10:25:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_join.sv":34:10:34:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_demux.sv":347:14:347:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_demux.sv":371:14:371:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_demux.sv":374:12:374:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_demux.sv":381:12:381:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_demux.sv":463:12:463:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_demux.sv":470:12:470:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_join.sv":25:10:25:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_join.sv":32:10:32:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mailbox.sv":188:12:188:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mailbox.sv":196:12:196:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mailbox.sv":542:12:542:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mailbox.sv":551:12:551:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mailbox.sv":609:12:609:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mailbox.sv":622:12:622:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mux.sv":377:12:377:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mux.sv":384:12:384:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mux.sv":463:12:463:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_mux.sv":470:12:470:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_regs.sv":379:12:379:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_regs.sv":403:12:403:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_regs.sv":471:12:471:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_regs.sv":480:12:480:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_apb.sv":310:12:310:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_apb.sv":325:12:325:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_axi.sv":86:12:86:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_axi.sv":92:12:92:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_axi.sv":105:10:105:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_axi.sv":111:10:111:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_modify_address.sv":152:10:152:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_modify_address.sv":161:10:161:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_mux.sv":388:10:388:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_mux.sv":416:10:416:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_serializer.sv":185:10:185:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_serializer.sv":211:10:211:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_serializer.sv":275:10:275:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_serializer.sv":288:10:288:21|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_err_slv.sv":242:12:242:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_err_slv.sv":254:12:254:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_multicut.sv":80:12:80:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_multicut.sv":86:12:86:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_multicut.sv":148:12:148:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_multicut.sv":165:12:165:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_multicut.sv":222:12:222:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_multicut.sv":233:12:233:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_to_axi_lite.sv":100:12:100:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_to_axi_lite.sv":108:12:108:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_to_axi_lite.sv":227:12:227:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_to_axi_lite.sv":242:12:242:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_xbar.sv":112:14:112:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_xbar.sv":136:14:136:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_xbar.sv":98:14:98:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_xbar.sv":122:14:122:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_xbar.sv":215:12:215:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_xbar.sv":224:12:224:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_pkg.sv":93:18:93:30|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_pkg.sv":95:18:95:29|Read directive translate_on.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":334:36:334:44|Read full_case directive.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":334:46:334:58|Read a parallel_case directive.
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":340:49:340:57|Read full_case directive.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":340:59:340:71|Read a parallel_case directive.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_csrs.sv":594:9:594:21|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_csrs.sv":603:9:603:20|Read directive translate_on.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dmi_jtag_tap.sv":202:43:202:55|Read a parallel_case directive.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_sba.sv":163:13:163:25|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_sba.sv":171:13:171:24|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/soc_clk_rst_gen.sv":66:15:66:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/soc_clk_rst_gen.sv":72:15:72:26|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":114:12:114:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":119:12:119:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":172:18:172:30|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":186:18:186:29|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":310:14:310:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":343:14:343:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":264:14:264:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":300:14:300:25|Read directive translate_on.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_tap_top.v":488:40:488:52|Read a parallel_case directive.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_tap_top.v":515:44:515:56|Read a parallel_case directive.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/jtag_pulp/src/tap_top.v":11:12:11:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/jtag_pulp/src/tap_top.v":13:12:13:23|Read directive translate_on.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/jtag_pulp/src/tap_top.v":515:40:515:52|Read a parallel_case directive.
+@N: CG347 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/jtag_pulp/src/tap_top.v":540:48:540:60|Read a parallel_case directive.
+@N|stack limit increased to max
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter_pkg.sv":14:8:14:20|Synthesizing module cb_filter_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cf_math_pkg.sv":18:8:18:18|Synthesizing module cf_math_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/ecc_pkg.sv":15:8:15:14|Synthesizing module ecc_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/tcdm_interconnect/tcdm_interconnect_pkg.sv":16:8:16:28|Synthesizing module tcdm_interconnect_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_pkg.sv":17:8:17:14|Synthesizing module axi_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/defs_div_sqrt_mvp.sv":14:8:14:24|Synthesizing module defs_div_sqrt_mvp in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_pkg.sv":14:8:14:16|Synthesizing module fpnew_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/include/apu_core_package.sv":22:8:22:23|Synthesizing module apu_core_package in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/include/riscv_defines.sv":26:8:26:20|Synthesizing module riscv_defines in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/include/riscv_tracer_defines.sv":12:8:12:27|Synthesizing module riscv_tracer_defines in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/ibex/rtl/ibex_pkg.sv":9:8:9:15|Synthesizing module ibex_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv":16:8:16:24|Synthesizing module hwpe_ctrl_package in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/hwpe-stream/rtl/hwpe_stream_package.sv":16:8:16:26|Synthesizing module hwpe_stream_package in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/hwpe-mac-engine/rtl/mac_package.sv":18:8:18:18|Synthesizing module mac_package in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_pkg.sv":19:8:19:9|Synthesizing module dm in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/register_interface/src/reg_intf_pkg.sv":23:8:23:19|Synthesizing module reg_intf_pkg in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/pkg_soc_interconnect.sv":1:8:1:27|Synthesizing module pkg_soc_interconnect in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/control_mvp.sv":41:0:41:5|Synthesizing module work_/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/binary_to_gray.sv_unit in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/pad_frame.sv":11:7:11:23|Synthesizing module pad_functional_pi in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/pad_frame.sv":47:7:47:15|Synthesizing module pad_frame in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/pad_control.sv":16:7:16:17|Synthesizing module pad_control in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen_bypass.sv":15:7:15:19|Synthesizing module rstgen_bypass in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen.sv":13:7:13:12|Synthesizing module rstgen in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/safe_domain.sv":12:7:12:17|Synthesizing module safe_domain in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1157:70:1157:74|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1158:70:1158:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1159:70:1159:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1160:70:1160:73|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1161:70:1161:76|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1162:70:1162:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1163:70:1163:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1164:70:1164:76|Bi-directional port is being changed to input as port has no output
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1157:70:1157:74|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1158:70:1158:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1159:70:1159:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1160:70:1160:73|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1161:70:1161:76|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1162:70:1162:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1163:70:1163:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1164:70:1164:76|Bi-directional port is being changed to input as port has no output
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1157:70:1157:74|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1158:70:1158:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1159:70:1159:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1160:70:1160:73|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1161:70:1161:76|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1162:70:1162:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1163:70:1163:75|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1164:70:1164:76|Bi-directional port is being changed to input as port has no output
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":249:10:249:22|Synthesizing interface AXI_BUS_ASYNC in library work
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":267:20:267:24|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":268:20:268:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":269:20:269:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":270:20:270:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":271:20:271:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":272:20:272:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":273:20:273:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":274:20:274:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":275:20:275:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":276:20:276:28|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":277:20:277:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":278:20:278:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":279:20:279:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":280:20:280:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":282:20:282:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":283:20:283:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":284:20:284:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":285:20:285:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":286:20:286:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":287:20:287:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":289:20:289:23|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":290:20:290:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":291:20:291:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":292:20:292:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":293:20:293:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":295:20:295:24|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":296:20:296:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":297:20:297:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":298:20:298:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":299:20:299:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":300:20:300:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":301:20:301:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":302:20:302:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":303:20:303:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":304:20:304:28|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":305:20:305:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":306:20:306:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":307:20:307:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":309:20:309:23|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":310:20:310:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":311:20:311:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":312:20:312:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":313:20:313:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":314:20:314:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":315:20:315:32|Bi-directional port is being changed to input as port has no output
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":249:10:249:22|Synthesizing interface AXI_BUS_ASYNC in library work
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":267:20:267:24|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":268:20:268:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":269:20:269:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":270:20:270:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":271:20:271:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":272:20:272:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":273:20:273:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":274:20:274:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":275:20:275:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":276:20:276:28|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":277:20:277:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":278:20:278:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":279:20:279:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":280:20:280:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":282:20:282:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":283:20:283:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":284:20:284:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":285:20:285:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":286:20:286:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":287:20:287:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":289:20:289:23|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":290:20:290:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":291:20:291:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":292:20:292:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":293:20:293:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":295:20:295:24|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":296:20:296:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":297:20:297:25|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":298:20:298:26|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":299:20:299:27|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":300:20:300:26|Bi-directional port is being changed to input as port has no output
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":19:10:19:16|Synthesizing interface AXI_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":19:10:19:16|Synthesizing interface AXI_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1192:10:1192:16|Synthesizing interface FLL_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1192:10:1192:16|Synthesizing interface FLL_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1192:10:1192:16|Synthesizing interface FLL_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/pulp_soc.sv":14:7:14:14|Synthesizing module pulp_soc in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring.v":11:7:11:19|Synthesizing module dc_token_ring in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_synchronizer.v":11:7:11:21|Synthesizing module dc_synchronizer in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_dout.v":11:7:11:29|Synthesizing module dc_token_ring_fifo_dout in library work.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":70:14:70:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":77:14:77:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":138:10:138:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":152:10:152:21|Read directive translate_on.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":13:7:13:13|Synthesizing module fifo_v3__internal_typedef_18_1 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":13:7:13:13|Synthesizing module fifo_v2__internal_typedef_18_0 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v1.sv":14:7:14:10|Synthesizing module fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice/src/axi_single_slice.sv":12:7:12:22|Synthesizing module axi_single_slice in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_dout.v":11:7:11:29|Synthesizing module dc_token_ring_fifo_dout in library work.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":70:14:70:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":77:14:77:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":138:10:138:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":152:10:152:21|Read directive translate_on.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":13:7:13:13|Synthesizing module fifo_v3__internal_typedef_18_3 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":13:7:13:13|Synthesizing module fifo_v2__internal_typedef_18_2 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v1.sv":14:7:14:10|Synthesizing module fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice/src/axi_single_slice.sv":12:7:12:22|Synthesizing module axi_single_slice in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv":13:7:13:19|Synthesizing module onehot_to_bin in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_data_buffer.sv":11:7:11:20|Synthesizing module dc_data_buffer in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring.v":11:7:11:19|Synthesizing module dc_token_ring in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_synchronizer.v":11:7:11:21|Synthesizing module dc_synchronizer in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_full_detector.v":11:7:11:22|Synthesizing module dc_full_detector in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_din.v":11:7:11:28|Synthesizing module dc_token_ring_fifo_din in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_data_buffer.sv":11:7:11:20|Synthesizing module dc_data_buffer in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_din.v":11:7:11:28|Synthesizing module dc_token_ring_fifo_din in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/axi_slice_dc_master.sv":11:7:11:25|Synthesizing module axi_slice_dc_master in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/axi_slice_dc_master_wrap.sv":33:7:33:30|Synthesizing module axi_slice_dc_master_wrap in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_data_buffer.sv":11:7:11:20|Synthesizing module dc_data_buffer in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_din.v":11:7:11:28|Synthesizing module dc_token_ring_fifo_din in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_data_buffer.sv":11:7:11:20|Synthesizing module dc_data_buffer in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_din.v":11:7:11:28|Synthesizing module dc_token_ring_fifo_din in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_dout.v":11:7:11:29|Synthesizing module dc_token_ring_fifo_dout in library work.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":70:14:70:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":77:14:77:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":138:10:138:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":152:10:152:21|Read directive translate_on.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":13:7:13:13|Synthesizing module fifo_v3__internal_typedef_18_5 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":13:7:13:13|Synthesizing module fifo_v2__internal_typedef_18_4 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v1.sv":14:7:14:10|Synthesizing module fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice/src/axi_single_slice.sv":12:7:12:22|Synthesizing module axi_single_slice in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/dc_token_ring_fifo_dout.v":11:7:11:29|Synthesizing module dc_token_ring_fifo_dout in library work.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":70:14:70:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":77:14:77:25|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":138:10:138:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":152:10:152:21|Read directive translate_on.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":13:7:13:13|Synthesizing module fifo_v3__internal_typedef_18_7 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":13:7:13:13|Synthesizing module fifo_v2__internal_typedef_18_6 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v1.sv":14:7:14:10|Synthesizing module fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice/src/axi_single_slice.sv":12:7:12:22|Synthesizing module axi_single_slice in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/axi_slice_dc_slave.sv":11:7:11:24|Synthesizing module axi_slice_dc_slave in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi_slice_dc/src/axi_slice_dc_slave_wrap.sv":11:7:11:29|Synthesizing module axi_slice_dc_slave_wrap in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":11:7:11:20|Synthesizing module generic_memory in library work.
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CL134 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":64:39:64:48|Found RAM MEM, depth=8192, width=1
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/l2_ram_multi_bank.sv":13:7:13:23|Synthesizing module l2_ram_multi_bank in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":11:7:11:20|Synthesizing module generic_memory in library work.
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG440 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv":32:44:32:46|Allowing writes in multiple processes for multi-port RAM
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_rom.sv":11:7:11:17|Synthesizing module generic_rom in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/boot_rom.sv":14:7:14:14|Synthesizing module boot_rom in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/pulp_sync.sv":13:7:13:15|Synthesizing module pulp_sync in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/fpga/pulpissimo-zedboard/rtl/pulp_clock_gating_xilinx.sv":11:7:11:23|Synthesizing module pulp_clock_gating in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/pulp_sync_wedge.sv":13:7:13:21|Synthesizing module pulp_sync_wedge in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/periph_bus_wrap.sv":14:7:14:21|Synthesizing module periph_bus_wrap in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_node/src/apb_node.sv":20:7:20:14|Synthesizing module apb_node in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_node/src/apb_node_wrap.sv":20:7:20:19|Synthesizing module apb_node_wrap in library work.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":1151:10:1151:16|Synthesizing interface APB_BUS in library work
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_fll_if/apb_fll_if.sv":11:7:11:16|Synthesizing module apb_fll_if in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_gpio/./rtl/apb_gpio.sv":41:7:41:14|Synthesizing module apb_gpio in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_arbiter.sv":21:7:21:18|Synthesizing module udma_arbiter in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/io_generic_fifo.sv":22:7:22:21|Synthesizing module io_generic_fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_tx_channels.sv":22:7:22:22|Synthesizing module udma_tx_channels in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_ch_addrgen.sv":21:7:21:21|Synthesizing module udma_ch_addrgen in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_arbiter.sv":21:7:21:18|Synthesizing module udma_arbiter in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/io_generic_fifo.sv":22:7:22:21|Synthesizing module io_generic_fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/io_generic_fifo.sv":22:7:22:21|Synthesizing module io_generic_fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_rx_channels.sv":22:7:22:22|Synthesizing module udma_rx_channels in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/io_generic_fifo.sv":22:7:22:21|Synthesizing module io_generic_fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/io_tx_fifo.sv":21:7:21:16|Synthesizing module io_tx_fifo in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_stream_unit.sv":1:7:1:22|Synthesizing module udma_stream_unit in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/udma_apb_if.sv":23:7:23:17|Synthesizing module udma_apb_if in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/udma_ctrl.sv":27:7:27:15|Synthesizing module udma_ctrl in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_core.sv":22:7:22:15|Synthesizing module udma_core in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/pulp_clock_gating_async.sv":13:7:13:29|Synthesizing module pulp_clock_gating_async in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/edge_propagator_tx.sv":13:7:13:24|Synthesizing module edge_propagator_tx in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/udma_sdio_reg_if.sv":45:7:45:22|Synthesizing module udma_sdio_reg_if in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/udma_clk_div_cnt.sv":21:7:21:22|Synthesizing module udma_clk_div_cnt in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/cluster_clk_cells_xilinx.sv":51:7:51:21|Synthesizing module pulp_clock_mux2 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/udma_clkgen.sv":20:7:20:17|Synthesizing module udma_clkgen in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/edge_propagator.sv":13:7:13:21|Synthesizing module edge_propagator in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/sdio_crc7.sv":20:7:20:15|Synthesizing module sdio_crc7 in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/sdio_txrx_cmd.sv":20:7:20:19|Synthesizing module sdio_txrx_cmd in library work.
+@N: CG364 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/sdio_txrx_data.sv":20:7:20:20|Synthesizing module sdio_txrx_data in library work.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_uart/rtl/udma_uart_reg_if.sv":208:41:208:54|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_uart/rtl/udma_uart_reg_if.sv":211:41:211:54|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_uart/rtl/udma_uart_reg_if.sv":212:41:212:60|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_uart/rtl/udma_uart_reg_if.sv":215:38:215:51|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":146:22:146:24|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":349:33:349:39|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":350:33:350:39|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":404:33:404:39|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_adv_timer/./rtl/comparator.sv":86:34:86:40|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_adv_timer/./rtl/comparator.sv":134:38:134:44|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_adv_timer/./rtl/comparator.sv":136:34:136:40|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_adv_timer/./rtl/comparator.sv":185:24:185:30|Removing redundant assignment.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":114:12:114:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":119:12:119:23|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":172:18:172:30|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":186:18:186:29|Read directive translate_on.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":310:14:310:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":343:14:343:25|Read directive translate_on.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/control_mvp.sv":135:26:135:37|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/control_mvp.sv":163:29:163:43|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/control_mvp.sv":534:21:534:33|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/control_mvp.sv":566:22:566:35|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpu_div_sqrt_mvp/hdl/control_mvp.sv":657:21:657:28|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":248:69:248:69|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":249:69:249:69|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":250:69:250:69|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":280:59:280:59|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":321:104:321:104|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":325:66:325:66|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":327:76:327:76|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":328:76:328:76|Removing redundant assignment.
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":19:10:19:16|Synthesizing interface AXI_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":19:10:19:16|Synthesizing interface AXI_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":337:10:337:17|Synthesizing interface AXI_LITE in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/pulp_interfaces.sv":56:10:56:22|Synthesizing interface XBAR_TCDM_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":19:10:19:16|Synthesizing interface AXI_BUS in library work
+@N: CG637 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_intf.sv":19:10:19:16|Synthesizing interface AXI_BUS in library work
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_mux.sv":237:77:237:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_mux.sv":237:77:237:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":636:77:636:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":220:77:220:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_demux.sv":385:77:385:77|Removing redundant assignment.
+@N: CG179 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_lite_to_apb.sv":307:68:307:68|Removing redundant assignment.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb2per/apb2per.sv":59:37:59:54|Input per_master_r_opc_i is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/components/tcdm_arbiter_2x1.sv":122:5:122:13|Trying to extract state machine for register offset_fsm_cs.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_lintonly_top.sv":30:39:30:48|Input pause_dr_i is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_lint_module.sv":422:3:422:8|Trying to extract state machine for register module_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_lint_biu.sv":356:2:356:10|Trying to extract state machine for register lint_fsm_state.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_lint_biu.sv":41:40:41:51|Input lint_r_aux_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/adv_dbg_if/rtl/adbg_lint_biu.sv":44:40:44:51|Input lint_r_opc_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/jtag_tap_top.sv":20:30:20:39|Input test_clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/rtl/pulpissimo/jtag_tap_top.sv":21:30:21:40|Input test_rstn_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/jtag_pulp/src/tap_top.v":102:8:102:19|Input observ_out_i is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_mem.sv":444:4:444:12|Trying to extract state machine for register state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_sba.sv":145:4:145:12|Trying to extract state machine for register state_q.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dm_sba.sv":23:35:23:44|Input dmactive_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dmi_jtag.sv":196:4:196:12|Trying to extract state machine for register state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv-dbg/src/dmi_jtag_tap.sv":328:4:328:12|Trying to extract state machine for register tap_state_q.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv":18:36:18:41|Input onehot is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/pulp_soc/rtl/pulp_soc/tcdm_demux.sv":34:50:34:58|Input test_en_i is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv":240:2:240:10|Trying to extract state machine for register CS.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv":76:42:76:47|Input b_id_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv":79:42:79:49|Input b_user_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv":100:41:100:46|Input r_id_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv":103:41:103:48|Input r_last_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv":104:41:104:48|Input r_user_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":24:18:24:27|Input testmode_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":95:30:95:33|Input rr_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":21:15:21:19|Input clk_i is unused.
+@N: CL159 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv":22:15:22:20|Input rst_ni is unused.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register w_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/axi/axi/src/axi_atop_filter.sv":327:2:327:10|Trying to extract state machine for register r_state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/axi_read_ctrl.sv":89:4:89:12|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/lint64_to_32.sv":54:3:54:11|Trying to extract state machine for register rvalid_mask.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/lint64_to_32.sv":54:3:54:11|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/axi_write_ctrl.sv":100:4:100:12|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_load_store_unit.sv":307:2:307:10|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/fpnew/src/fpnew_divsqrt_multi.sv":240:28:240:28|Trying to extract state machine for register state_q.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_mult.sv":205:2:205:10|Trying to extract state machine for register mulh_CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_alu_div.sv":190:2:190:10|Trying to extract state machine for register State_SP.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_int_controller.sv":69:2:69:10|Trying to extract state machine for register exc_ctrl_cs.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_controller.sv":1076:2:1076:10|Trying to extract state machine for register ctrl_fsm_cs.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_prefetch_buffer.sv":416:2:416:10|Trying to extract state machine for register hwlp_CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/riscv/./rtl/riscv_prefetch_buffer.sv":416:2:416:10|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo.sv":103:3:103:11|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_control.sv":456:1:456:6|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2c/rtl/udma_i2c_bus_ctrl.sv":315:4:315:9|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_qspi/rtl/udma_spim_txrx.sv":591:4:591:12|Trying to extract state machine for register tx_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_qspi/rtl/udma_spim_txrx.sv":591:4:591:12|Trying to extract state machine for register rx_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_qspi/rtl/udma_spim_ctrl.sv":697:4:697:12|Trying to extract state machine for register state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_qspi/rtl/udma_spim_ctrl.sv":272:2:272:10|Trying to extract state machine for register r_cnt_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_uart/rtl/udma_uart_rx.sv":185:1:185:9|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_uart/rtl/udma_uart_tx.sv":163:1:163:9|Trying to extract state machine for register CS.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_filter/rtl/udma_filter_rx_dataout.sv":250:4:250:12|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_filter/rtl/udma_filter_tx_datafetch.sv":317:4:317:12|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_filter/rtl/udma_filter_reg_if.sv":242:4:242:12|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_i2s/rtl/i2s_tx_channel.sv":153:4:153:12|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/sdio_txrx.sv":168:2:168:10|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/sdio_txrx_data.sv":662:4:662:12|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_sdio/rtl/sdio_txrx_cmd.sv":382:4:382:12|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/common/udma_clkgen.sv":159:4:159:12|Trying to extract state machine for register state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/udma/udma_core/rtl/core/udma_stream_unit.sv":205:5:205:13|Trying to extract state machine for register r_state.
+@N: CL201 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/apb/apb_fll_if/apb_fll_if.sv":83:4:83:12|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

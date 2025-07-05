@@ -1,0 +1,326 @@
+#Build: Synplify Pro (R) T-2022.09-SP2, Build 154R, Nov 25 2022
+#install: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+#OS: Linux 
+#Hostname: victor-Aspire-A315-56
+
+# Mon Jun  9 17:23:34 2025
+
+#Implementation: synplify_xilinx_pulpissimo_work
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09-SP2
+Install: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+OS: Ubuntu 24.04.2 LTS
+Hostname: victor-Aspire-A315-56
+max virtual memory: unlimited (bytes)
+max user processes: 78580
+max stack size: 8000000 (bytes)
+
+
+Implementation : synplify_xilinx_pulpissimo_work
+Synopsys HDL Compiler, Version comp202209syn, Build 154R, Built Nov 25 2022 02:42:27, @4515191
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09-SP2
+Install: /home/victor/simplify-5.9/install/fpga/T-2022.09-SP2
+OS: Ubuntu 24.04.2 LTS
+Hostname: victor-Aspire-A315-56
+max virtual memory: unlimited (bytes)
+max user processes: 78580
+max stack size: 8000000 (bytes)
+
+
+Implementation : synplify_xilinx_pulpissimo_work
+Synopsys Verilog Compiler, Version comp202209syn, Build 154R, Built Nov 25 2022 02:42:27, @4515191
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera.v" (library work)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v" (library work)
+@N: CG1343 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":735:14:735:33|Read directive read_comments_as_HDL on.
+@N: CG1344 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":743:14:743:33|Read directive read_comments_as_HDL off.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":1725:22:1725:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":1832:22:1832:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":2553:22:2553:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":3108:22:3108:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/altera_mult_add.v":4364:22:4364:53|Unrecognized synthesis directive enable_verilog_initial_construct. Verify the correct directive name.
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev.v" (library work)
+@I:"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev.v":"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev_atoms.v" (library work)
+@I:"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev.v":"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev_hssi_atoms.v" (library work)
+@I:"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev.v":"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev_hps_atoms.sv" (library work)
+@I:"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev.v":"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/cyclonev_pcie_hip_atoms.v" (library work)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_mf.v" (library work)
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_mf.v":58:45:58:57|Unrecognized synthesis directive syn_black_box. Verify the correct directive name.
+@W: CS141 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_mf.v":62:42:62:54|Unrecognized synthesis directive syn_black_box. Verify the correct directive name.
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_lpm.v" (library work)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/altera/quartus_prime223/altera_primitives.v" (library work)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_him_async_fifo_2048x258_xcvu440_stub.v" (library snps_haps)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v" (library snps_haps)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v" (library snps_haps)
+@N: CG1222 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80_xcvu440_mgb1_stub.v":17:7:17:43|Previous declaration of module umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 found
+@W: CG275 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/netlist/umr3_pcie_gen2_x4_haps80d_xcvu440_mgb1_stub.v":17:7:17:43|Duplicate module name umr3_pcie_gen2_x4_haps80_xcvu440_mgb1 (using last description encountered)!
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v" (library snps_haps)
+@N: CG334 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":1074:15:1074:27|Read directive translate_off.
+@N: CG333 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":1079:15:1079:26|Read directive translate_on.
+@W: CS138 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":16999:3:16833:8|Macro definition for UMR3___GUARD__DW_AXI_GM_ALL_INCLUDES__VH__ not found. Cannot undefine.
+@W: CS138 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":21650:3:21450:8|Macro definition for UMR3___GUARD__DW_AXI_GS_ALL_INCLUDES__VH__ not found. Cannot undefine.
+@N: CG334 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":26313:19:26313:31|Read directive translate_off.
+@N: CG333 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":26315:19:26315:30|Read directive translate_on.
+@N: CG334 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27417:19:27417:31|Read directive translate_off.
+@N: CG333 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27419:19:27419:30|Read directive translate_on.
+@W: CG966 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27593:5:27593:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@W: CG966 :"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/umrbus3/umrbus3.v":27593:5:27593:5|Newline found within a string in a comment - should preferably be preceded with a '\'
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/synip/hcei/zceistubs.v" (library snps_haps)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/victor/simplify-5.9/install/fpga/T-2022.09-SP2/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/binary_to_gray.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter_pkg.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_2phase.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cf_math_pkg.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cf_math_pkg.sv":26:18:26:30|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cf_math_pkg.sv":40:18:40:29|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/clk_div.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv" (library work)
+@E: CG285 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv":32:12:32:20|Expecting statement
+@E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/delta_counter.sv":46:8:46:10|Expecting endmodule
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/ecc_pkg.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/edge_propagator_tx.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/exp_backoff.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/exp_backoff.sv":84:9:84:21|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/exp_backoff.sv":96:9:96:20|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":138:10:138:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fifo_v3.sv":152:10:152:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/gray_to_binary.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/isochronous_spill_register.sv" (library work)
+@I:"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/isochronous_spill_register.sv":"common_cells/registers.svh" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr.sv":293:10:293:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr.sv":313:10:313:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_16bit.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_16bit.sv":61:13:61:25|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_16bit.sv":66:13:66:24|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_8bit.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_8bit.sv":55:11:55:23|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lfsr_8bit.sv":59:11:59:22|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/mv_filter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv":32:10:32:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/onehot_to_bin.sv":37:10:37:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/plru_tree.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/plru_tree.sv":112:10:112:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/plru_tree.sv":118:10:118:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/popcount.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":112:12:112:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":117:12:117:23|Read directive translate_on.
+@E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":127:40:127:47|Expecting expression
+@E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":159:12:159:17|Expecting target variable, found lock_q -- possible misspelling
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":169:18:169:30|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":183:18:183:29|Read directive translate_on.
+@E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":187:12:187:16|Expecting target variable, found req_q -- possible misspelling
+@E: CG342 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":238:10:238:13|Expecting target variable, found rr_q -- possible misspelling
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":307:14:307:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv":340:14:340:25|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen_bypass.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen_bypass.sv":50:14:50:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen_bypass.sv":56:14:56:25|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/serial_deglitch.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/shift_reg.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/spill_register.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_demux.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_filter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv" (library work)
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":20:52:20:53|Unrecognized synthesis directive dc. Verify the correct directive name.
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":122:41:122:43|Unrecognized synthesis directive fix. Verify the correct directive name.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":125:10:125:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork.sv":131:10:131:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_intf.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_intf.sv":43:12:43:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_intf.sv":48:12:48:23|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv" (library work)
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv":19:51:19:52|Unrecognized synthesis directive dc. Verify the correct directive name.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv":36:10:36:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_join.sv":42:10:42:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv" (library work)
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv":16:46:16:47|Unrecognized synthesis directive dc. Verify the correct directive name.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv":38:10:38:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_mux.sv":44:10:44:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/sub_per_hash.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/sync.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/sync_wedge.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/unread.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/addr_decode.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/addr_decode.sv":103:12:103:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/addr_decode.sv":157:12:157:23|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter.sv":239:12:239:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cb_filter.sv":245:12:245:23|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_2phase.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_2phase.sv":42:11:42:23|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_2phase.sv":46:11:46:22|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_gray.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_gray.sv":136:12:136:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/cdc_fifo_gray.sv":141:12:141:23|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/counter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/ecc_decode.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/ecc_encode.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/edge_detect.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lzc.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lzc.sv":52:14:52:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/lzc.sv":56:14:56:25|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/max_counter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rstgen.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_delay.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fifo.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv" (library work)
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv":24:51:24:52|Unrecognized synthesis directive dc. Verify the correct directive name.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv":88:10:88:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_fork_dynamic.sv":94:10:94:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_xbar.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_xbar.sv":165:12:165:24|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_xbar.sv":197:12:197:23|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/fall_through_register.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/id_queue.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/id_queue.sv":267:10:267:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/id_queue.sv":276:10:276:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_to_mem.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_to_mem.sv":119:10:119:22|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_to_mem.sv":133:10:133:21|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv" (library work)
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv":18:54:18:55|Unrecognized synthesis directive dc. Verify the correct directive name.
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv":77:14:77:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter_flushable.sv":79:14:79:25|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv" (library work)
+@E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":126:40:126:47|Expecting expression
+@E: CG103 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":141:35:141:42|Expecting expression
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":263:14:263:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":299:14:299:25|Read directive translate_on.
+@E: CS187 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_omega_net.sv":300:2:300:4|Expecting endmodule
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_register.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter.sv" (library work)
+@W: CS141 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/stream_arbiter.sv":18:54:18:55|Unrecognized synthesis directive dc. Verify the correct directive name.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/clock_divider_counter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/find_first_one.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/find_first_one.sv":29:14:29:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/find_first_one.sv":33:14:33:25|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_LFSR_8bit.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo.sv":73:15:73:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo.sv":88:15:88:26|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo_adv.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo_adv.sv":51:15:51:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/generic_fifo_adv.sv":69:15:69:26|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/pulp_sync.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/pulp_sync_wedge.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/clock_divider.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":70:14:70:26|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v2.sv":77:14:77:25|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/prioarbiter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/rrarbiter.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/deprecated/fifo_v1.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/edge_propagator.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/edge_propagator_rx.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/l2_tcdm_demux.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_apb.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/lint_2_axi.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/axi64_2_lint32.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/axi_read_ctrl.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/axi_write_ctrl.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/axi_2_lint/lint64_to_32.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/AddressDecoder_Req_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/AddressDecoder_Resp_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/ArbitrationTree_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/FanInPrimitive_Req_L2.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/FanInPrimitive_Req_L2.sv":61:27:61:35|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/FanInPrimitive_Resp_L2.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/FanInPrimitive_Resp_L2.sv":40:27:40:35|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/MUX2_REQ_L2.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/MUX2_REQ_L2.sv":74:28:74:36|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/RequestBlock_L2_1CH.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/RequestBlock_L2_2CH.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/ResponseBlock_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/ResponseTree_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/RR_Flag_Req_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_L2/XBAR_L2.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/AddressDecoder_Req_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/AddressDecoder_Resp_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/ArbitrationTree_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/FanInPrimitive_Req_BRIDGE.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/FanInPrimitive_Req_BRIDGE.sv":66:31:66:39|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/FanInPrimitive_Resp_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/MUX2_REQ_BRIDGE.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/MUX2_REQ_BRIDGE.sv":73:30:73:38|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/RequestBlock1CH_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/RequestBlock2CH_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/ResponseBlock_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/ResponseTree_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/RR_Flag_Req_BRIDGE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/XBAR_BRIDGE.sv" (library work)
+@N: CG334 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/XBAR_BRIDGE.sv":85:15:85:27|Read directive translate_off.
+@N: CG333 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/L2_tcdm_hybrid_interco/RTL/XBAR_BRIDGE/XBAR_BRIDGE.sv":91:15:91:26|Read directive translate_on.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Req.sv" (library work)
+@I:"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Req.sv":"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/parameters.v" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Req.sv":114:29:114:37|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/ArbitrationTree.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/MUX2_REQ.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/MUX2_REQ.sv":121:28:121:36|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/AddressDecoder_Resp.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/TestAndSet.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/RequestBlock2CH.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/RequestBlock1CH.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Resp.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/FanInPrimitive_Resp.sv":72:29:72:37|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/ResponseTree.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/ResponseBlock.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/AddressDecoder_Req.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/XBAR_TCDM.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/XBAR_TCDM_WRAPPER.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/TCDM_PIPE_REQ.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/TCDM_PIPE_RESP.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/grant_mask.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/low_latency_interco/priority_Flag_Req.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/AddressDecoder_PE_Req.sv" (library work)
+@I:"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/AddressDecoder_PE_Req.sv":"./parameters.v" (library work)
+@I:"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/AddressDecoder_PE_Req.sv":"./pulp_soc_defines.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/AddressDecoder_Resp_PE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/ArbitrationTree_PE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/FanInPrimitive_Req_PE.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/FanInPrimitive_Req_PE.sv":110:31:110:39|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/RR_Flag_Req_PE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/MUX2_REQ_PE.sv" (library work)
+@N: CG346 :"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/MUX2_REQ_PE.sv":122:30:122:38|Read full_case directive.
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/FanInPrimitive_PE_Resp.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/RequestBlock1CH_PE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/RequestBlock2CH_PE.sv" (library work)
+@I::"/home/victor/pulp_shared_vm/pulp_box/pulpissimo/ips/cluster_interconnect/rtl/peripheral_interco/ResponseBlock_PE.sv" (library work)
+@E: Can't open file ips/cluster_interconnect/rtl/low_latency_interco/parameters.v
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jun  9 17:23:34 2025
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jun  9 17:23:34 2025
+
+###########################################################]

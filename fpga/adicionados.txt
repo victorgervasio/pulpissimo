@@ -1,0 +1,5 @@
+~/pulp_shared_vm/pulp_box/pulpissimo/fpga/pulpissimo-zedboard/rtl/pulp_clock_gating_xilinx.sv
+~/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/pulp_clk_cells_xilinx.sv
+~/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_rom.sv
+~/pulp_shared_vm/pulp_box/pulpissimo/ips/tech_cells_generic/src/deprecated/generic_memory.sv
+~/pulp_shared_vm/pulp_box/pulpissimo/ips/common_cells/src/rr_arb_tree.sv

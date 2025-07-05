@@ -239,7 +239,8 @@ module soc_domain #(
     input  logic [AXI_USER_WIDTH-1:0]        data_master_b_user_i,
     output logic [7:0]                       data_master_b_readpointer_o
 );
-
+	/* synthesis syn_preserve=1*/;
+	/* synthesis syn_noprune=1*/;
 
     pulp_soc #(/*AUTOINSTPARAM*/
       // Parameters
